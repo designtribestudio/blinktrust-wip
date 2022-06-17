@@ -1,0 +1,259 @@
+#Ellipse_133 {
+  transform: translateX(-50%) translateY(-50%);
+  animation: Ellipse_133__width__1 500ms 0ms linear forwards infinite, Ellipse_133__width__2 500ms 500ms linear forwards infinite, Ellipse_133__height__1 500ms 0ms linear forwards infinite, Ellipse_133__height__2 500ms 500ms linear forwards infinite;
+}
+
+@keyframes Ellipse_133__width__1 {
+  from {
+    width: 40px;
+  }
+
+  to {
+    width: 50px;
+  }
+}
+
+@keyframes Ellipse_133__width__2 {
+  from {
+    width: 50px;
+  }
+
+  to {
+    width: 40px;
+  }
+}
+
+@keyframes Ellipse_133__height__1 {
+  from {
+    height: 40px;
+  }
+
+  to {
+    height: 50px;
+  }
+}
+
+@keyframes Ellipse_133__height__2 {
+  from {
+    height: 50px;
+  }
+
+  to {
+    height: 40px;
+  }
+}
+
+#Ellipse_135 {
+  transform: translateX(-50%) translateY(-50%);
+  animation: Ellipse_135__width__1 500ms 0ms linear forwards, Ellipse_135__width__2 500ms 500ms linear forwards, Ellipse_135__height__1 500ms 0ms linear forwards, Ellipse_135__height__2 500ms 500ms linear forwards;
+}
+
+@keyframes Ellipse_135__width__1 {
+  from {
+    width: 48px;
+  }
+
+  to {
+    width: 72px;
+  }
+}
+
+@keyframes Ellipse_135__width__2 {
+  from {
+    width: 72px;
+  }
+
+  to {
+    width: 48px;
+  }
+}
+
+@keyframes Ellipse_135__height__1 {
+  from {
+    height: 48px;
+  }
+
+  to {
+    height: 72px;
+  }
+}
+
+@keyframes Ellipse_135__height__2 {
+  from {
+    height: 72px;
+  }
+
+  to {
+    height: 48px;
+  }
+}
+
+#Ellipse_137 {
+  transform: translateX(-50%) translateY(-50%);
+  animation: Ellipse_137__width__1 504ms 0ms linear forwards, Ellipse_137__width__2 498ms 504ms linear forwards, Ellipse_137__height__1 504ms 0ms linear forwards, Ellipse_137__height__2 498ms 504ms linear forwards;
+}
+
+@keyframes Ellipse_137__width__1 {
+  from {
+    width: 48px;
+  }
+
+  to {
+    width: 72px;
+  }
+}
+
+@keyframes Ellipse_137__width__2 {
+  from {
+    width: 72px;
+  }
+
+  to {
+    width: 48px;
+  }
+}
+
+@keyframes Ellipse_137__height__1 {
+  from {
+    height: 48px;
+  }
+
+  to {
+    height: 72px;
+  }
+}
+
+@keyframes Ellipse_137__height__2 {
+  from {
+    height: 72px;
+  }
+
+  to {
+    height: 48px;
+  }
+}
+
+#Developer_code {
+  transform: translateX(-50%) translateY(-50%);
+  animation: Developer_code__rotation__1 500ms 0ms linear forwards, Developer_code__rotation__2 500ms 500ms linear forwards;
+}
+
+@keyframes Developer_code__rotation__1 {
+  from {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+}
+
+@keyframes Developer_code__rotation__2 {
+  from {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+}
+
+.cHome_SectionMask {
+  background-color: #5B588F;
+  padding: 100px;
+}
+
+.universal-mask {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.know-more-btn {
+  width: 159px;
+  height: 54px;
+  border: 2px solid #FFFFFF;
+  border-radius: 33px;
+  background: transparent;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+
+.right span {
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+
+}
+
+.text-head {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.para-details {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+#myBtn {
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #5B588F;
+  color: #FFFFFF;
+  float: left;
+}
+
+.right-section {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 64px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #2E2E2E;
+}
+
+.sec-details {
+  margin-top: 40px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #19191F;
+}
+
+.sec-head {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  /* Gradient 2 */
+  background: linear-gradient(90.54deg, #817EA6 0%, #2E2952 98.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

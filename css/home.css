@@ -1,0 +1,241 @@
+.privacy-platform {
+    background-image: url('../img/home/home-banner.png');
+    padding: 35px 0 0 0;
+}
+nav{
+    display: flex;
+    width: 1140px;
+    margin: 0  auto 100px auto;
+    justify-content: space-between;
+}
+.logo-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-start-btn {
+    width: fit-content;
+    border: none;
+    padding: 1em 2em;
+    background: #27AE60;
+    color: #fff;
+    border-radius: 0.4em;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin: 35px;
+}
+
+.head-sub-text {
+    color: #fff;
+    max-width: 852px;
+    font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+text-align: center;
+    /* margin-bottom: 70px; */
+}
+
+.info-tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* max-width: 1260px; */
+    max-width: 1150px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+
+.info-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 0 40px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+#devops::after,
+#discovery::after,
+#security::after,
+#pii::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: #fff;
+    border: 1px solid #FFFFFF;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.info-tab.active {
+    border-radius: 22px 22px 0 0;
+    background-color: #fff;
+    border: 5px solid #fff;
+}
+
+.info-tab.active span {
+    color: #343458;
+}
+
+.info-tab span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.info-tab .main-text {
+    font-size: 28px;  
+}
+
+/* .info-tab .main-text:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-right: #FFFFFF 5px solid;
+    border-left: transparent 5px solid;
+    margin: 0 auto;
+}
+
+#residency .main-text{
+    border: none;
+} */
+.info-content {
+    display: none;
+    position: relative;
+    top: 130px;
+}
+
+.devops-data img {
+    width: 100%;
+}
+
+.discover-data img {
+    width: 105%;
+}
+
+.security-data-info img {
+    position: relative;
+    width: 115%;
+    /* right: 60px; */
+}
+
+.pii-info-data, .residency-data-info {
+    position: relative;
+    /* right: 78px; */
+}
+.pii-info-data img{
+    width: 125%;
+}
+.residency-data-info img{
+    width: 100%;
+}
+
+.info-content.active {
+    display: flex;
+    column-gap: 20px;
+    background: #fff;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 22px;
+    height: 430px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.image-container img {
+    object-fit: contain;
+}
+
+.details {
+    position: relative;
+    min-width: 320px;
+    max-width: 320px;
+    padding: 50px 0 0 0;
+}
+
+.btn-grp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    column-gap: 10px;
+}
+
+.details-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.details-text span {
+    font-size: 14px;
+    font-weight: 700;
+    width: 1000px;
+}
+
+.details-text .deatils-text-head {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.green-text-bold {
+    color: #69ca94;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.pii-vault {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.mask-encrypt {
+    width: 1225px !important;
+}
+
+.know-btn {
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 20px !important;
+}
+
+.knowmorebtn {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    
+}
+
+.knowmorebtn span {
+    font-size: 14px;
+    color: #7465F1;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pii-vault{
+    display: flex;
+    
+}
+

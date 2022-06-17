@@ -1,0 +1,192 @@
+.cHomePage .cBannerbg {
+  position: relative;
+  top: 0 !important;
+  height: fit-content !important;
+  width: 100vw !important;
+  background: #272362 !important;
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  padding: 90px 0 156px 0;
+  /* box-shadow: 0px 6px 18px #00000029; */
+}
+
+.cHomePage .cHome_Footer {
+  background: #272362 !important;
+  padding: 20px 0;
+  position: relative;
+  margin: 400px 0 0 0;
+  font-size: 14px;
+}
+
+.cHomePage .cBannerbg .container .imgsection-title,
+.cHomePage .cBannerbg .container .imgsection-main-title,
+.cHomePage .cBannerbg .container .imgsection-sub-title {
+  color: #fff;
+  text-align: left;
+  margin: 0;
+}
+
+.cHomePage .cHome_Footer .cFooterLinks .cFooterLinksItem,
+.cHomePage .cHome_Footer p {
+  color: #fff !important;
+}
+
+.cHomePage .cHome_Footer .vl {
+  background: #fff;
+}
+
+.navbar-header p {
+  background: rgba(116, 101, 241, 0.25);
+  border-radius: 8px;
+  height: fit-content;
+  padding: 3px 9px;
+  color: #69ca94;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  position: relative;
+  top: 45px;
+  left: 20px;
+}
+
+.cHomePage .cHero_container {
+  background: #f8f8fb;
+  /* Off White_Blink Hub */
+
+  border: 0.84px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 54px 80px !important;
+  position: relative;
+  top: 300px;
+}
+
+.cHomePage .cBannerbg .container .imgsection-title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+
+  /* Light Drey_BlinkTrust AI */
+
+  color: #e9e9f4;
+}
+
+.cHomePage .cBannerbg .container .imgsection-main-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
+  /* or 134% */
+
+  letter-spacing: 0.2px;
+  margin: 24px 0;
+}
+
+.cHomePage .cBannerbg .container .imgsection-main-title span {
+  color: #7465f1;
+}
+
+.cHomePage .cBannerbg .container .imgsection-sub-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  /* identical to box height, or 83% */
+
+  letter-spacing: 0.2px;
+
+  /* Light Drey_BlinkTrust AI */
+
+  color: #e9e9f4;
+}
+
+.custom-button-group {
+  display: flex;
+  width: fit-content;
+  margin: 24px auto 45px auto;
+}
+.custom-button {
+  background: rgba(255, 255, 255, 0.85);
+  /* Grey Text_Blink hub */
+
+  border: 1px solid #9591af;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 20px;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+
+.custom-button-selected {
+  background: #e9e9f4;
+  /* Purple_Blink Hub */
+
+  border: 1px solid #7465f1;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 20px;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+  color: #5b588f;
+}
+
+.earlyAccessForm input[type="text"],
+.earlyAccessForm input[type="email"] {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 6px;
+  height: 60px;
+  color: #000000;
+  border: none;
+  margin: 0 0 45px 0;
+}
+.form-row{
+    width: 100%;
+}
+.earlyAccessForm input[type="text"]::placeholder,
+.earlyAccessForm input[type="email"]::placeholder {
+  color: #000000;
+}
+
+.earlyAccessForm button[type="submit"] {
+  background: #27ae60;
+  border-radius: 5px;
+  padding: 15px 33px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cHomePage .cHero_container h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.cHomePage .cHero_container p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #19191f;
+  margin: 24px 0 66px 0;
+}
+
+.cHomePage .cHero_container .earlyAccessForm .form-devices {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #19191f;
+}

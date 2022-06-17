@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="img/logo/logo.png" rel="icon">
+  <title>Blink Hub - Dashboard</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&amp;family=Quicksand:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link href="libs/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/ruang-admin.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center logo-in-middle" href="index.html">
+        <div class="sidebar-brand-icon mx-1">
+          <img src="img/logo/Blinkhub-logo.svg">
+        </div>
+        <div class="sidebar-brand-text">
+          <img src="img/logo/Blinkhub-logo-text.svg">
+        </div>
+      </a>
+      
+    </ul>
+    <!-- Sidebar -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content">
+        <span class="bg-logo"></span>
+        <!-- TopBar -->
+      
+        <!-- Topbar -->
+
+        <!-- Container Fluid-->
+        <div class="container-fluid" id="container-wrapper">
+        
+
+          <div class="cHome_SecThree-bg">
+            <div class="cHome_SecThree">
+
+              <div class="col-sm-12 chooseSection">
+                <div class="section-heading mt-lg-5">
+                  <h2 class="fw7 mb-5">Discover</h2>
+                </div>
+                <h4 class="fw600 ">Where is the code you want to test?</h4>
+                <h5>BlinkTrust AI can test or monitor your projects’ dependencies for vulnerabilities</h5>
+                <div class="data-type-item">
+                                   
+                  <div class="data-type-item col-sm-9">
+                    <hr style="margin:3rem 0">
+                    
+                    <div class="mb-5 row">
+                      <div class="col-sm-6">
+                        <div class="data-type-card" onclick="openGitHubLogIn()">
+                          <img src="img/icons/github.png" alt="" class="img-fluid  m-3">
+                          <label>GitHub Repository</label>
+                          <div class="right-arrow"></div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="data-type-card"><img src="img/icons/bitbucket.png" alt="" class="img-fluid  m-3">
+                          <label>Bitbucket Repository</label>
+                          <div class="right-arrow"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <p><b>If you're not using any of the above, </b> <a class="fc fw7"data-toggle="modal" data-target="#exampleModalCenter" id="#modalCenter">Check all Integrations</a></p>
+                  </div>
+                  
+                </div>
+                <div class="col-sm-5 line">
+                  <span>or</span>
+                </div> 
+              
+                <h4 class="fw7 fc">Show Plugin Integrations</h4>
+                
+ 
+                
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+
+
+          <!--Row-->
+
+
+
+         
+
+        </div>
+        <!---Container Fluid-->
+         <!-- Repository Access model -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+              <div class="mt-4 mb-3">
+                <h5 class="modal-title text-center fw7" id="exampleModalCenterTitle">Select Repository access</h5>
+               
+              </div>
+              <div class="modal-body">
+                <div class="public-rep-btn selecotr-item">
+                  <input type="radio" id="radio1" name="selector" class="selector-item_radio" checked>
+                  <label for="radio1" class="selector-item_label">
+                  <img class="mr-3" src="img/icons/lock-grn.png" alt="">
+                  <div class="desc">
+                   <h6 class="mb-0 fw7">Public Repository</h6>
+                   <label for="">No permission required, to access requested data.</label>
+                  </label>
+                  </div>
+                </div> 
+                <div class="public-rep-btn selecotr-item">
+                  <input type="radio" id="radio2" name="selector" class="selector-item_radio">
+                  <label for="radio2" class="selector-item_label">
+                  <img class="mr-3" src="img/icons/lock-bl.png" alt="">
+                  <div class="desc">
+                  <h6 class="mb-0 fw7">Public & Private Repository</h6>
+                  <span>Requires special permissions, to access requested data.</span>
+                  </div>
+                </label>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-default cancelBtn p-2 pl-4 pr-4" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success p-2 pl-4 pr-4">Next</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- Repository Access model end-->
+      </div>
+      <!-- Footer -->
+   =
+      <!-- Footer -->
+    </div>
+  </div>
+
+  <!-- Scroll to top -->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <script src="libs/jquery/jquery.min.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="libs/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/ruang-admin.min.js"></script>
+  <script src="libs/chart.js/Chart.min.js"></script>
+  <script src="js/demo/chart-area-demo.js"></script>
+</body>
+
+</html>

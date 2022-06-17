@@ -1,0 +1,98 @@
+.cHomePage{
+    border:none;
+}
+.logo-head{
+    text-align: left;
+    display: block;
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo-head p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+color: #9591AF;
+text-align: left;
+}
+
+.logo-head h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.2px;
+
+/* Off White_Blink Hub */
+
+color: #FFFFFF;
+text-align: left;
+margin-bottom: 0;
+}
+.privacy-platform {
+    background-image: url('compliance-bg.png');
+    padding: 35px 0;
+}
+
+.selector{
+    margin: 20px auto;
+    width: fit-content;
+    display: flex;
+    background: #FDFDFD;
+/* Green_BlinkHub */
+
+border: 1px solid #69CA94;
+border-radius: 8px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+overflow: hidden;
+}
+
+.selector-tab{
+    margin: 0;
+     padding: 14px 48px;
+}
+
+.selector .active{
+    color: white;
+    background: #69CA94;
+    border: #69CA94 solid 2px;
+    margin: 0;
+}
+
+.selector-tab.not-active:hover{
+    cursor: pointer;
+    color: #fff;
+    background: #4f966f;
+}
+
+.grid-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
+
+    padding: 10px 0;
+  }
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 0;
+    margin-left: -10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #country{
+    display: none;
+  }
