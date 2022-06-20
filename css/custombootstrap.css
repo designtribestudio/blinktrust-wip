@@ -2029,6 +2029,7 @@ ul li {
 .slider-sec{
   max-height: 750px;
   overflow: auto;
+  /* scroll-snap-type: y proximity; */
 }
 
 .slider-sec::-webkit-scrollbar{
@@ -2066,6 +2067,11 @@ background: #7465F1;
   list-style-type: none;
   margin: 0 12px;
   padding: 0;
+  cursor: pointer;
+}
+
+.nav-left ul li:hover{
+  color:#27AE60;
 }
 
 .nav-left ul li:first-child{
