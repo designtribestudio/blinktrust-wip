@@ -1,0 +1,219 @@
+body{
+    background-color: #fff;
+}
+.cHomePage {
+    border: none;
+}
+
+.logo-head {
+    text-align: left;
+    display: block;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo-head p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #9591AF;
+    text-align: left;
+}
+
+.logo-head h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.2px;
+
+    /* Off White_Blink Hub */
+
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.navigation {
+    background-color: #19191F;
+    /* background: rgba(25, 25, 31, 0.8);
+mix-blend-mode: normal;
+backdrop-filter: blur(15px); */
+    padding: 35px 0 0 0 !important;
+    margin: 0;
+    /* height: fit-content; */
+}
+
+.selector {
+    margin: 20px auto;
+    width: fit-content;
+    display: flex;
+    background: #FDFDFD;
+    /* Green_BlinkHub */
+
+    border: 1px solid #69CA94;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    overflow: hidden;
+}
+
+.selector-tab {
+    margin: 0;
+    padding: 14px 48px;
+}
+
+.selector .active {
+    color: white;
+    background: #69CA94;
+    border: #69CA94 solid 2px;
+    margin: 0;
+}
+
+.selector-tab.not-active:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #4f966f;
+}
+
+.grid-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
+
+    padding: 10px 0;
+}
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 0;
+    margin-left: -10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-left{
+    padding: 0 0 35px 0;
+}
+
+#country {
+    display: none;
+}
+
+.pp-hero-container{
+    position: relative;
+    top: -100px;
+    background: #9591AF;
+}
+
+.pp-hero{
+    width: 1140px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 95px 520px 260px 0;
+}
+
+.pp-hero h3, .why-partner h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+}
+
+.pp-hero h1, .why-partner h1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* or 133% */
+
+letter-spacing: 0.0652651px;
+}
+
+.pp-hero p {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.2px;
+}
+
+.pp-hero::after{
+    content: url('./Group\ 1706.svg');
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+
+.why-partner{
+    width: 1140px;
+    margin: 150px auto;
+}
+
+.why-partner h3{
+    color: #5B588F;
+}
+
+.why-partner h1{
+    max-width: 520px;
+}
+
+.reason-box{
+    background: #FFFFFF;
+/* Light Drey_BlinkHub */
+
+border: 1.5px solid #E9E9F4;
+border-radius: 4px;
+    padding: 24px;
+    margin: 16px 0 0 0;
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+}
+
+.know-more{
+    border: 2px solid #9591AF;
+border-radius: 33px;
+padding: 16px 36px;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+letter-spacing: 0.2px;
+
+/* Grey Text_Blink hub */
+
+color: #9591AF;
+background-color: transparent;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+margin-top: 50px;
+}
+
+.know-more:hover{
+    background-color: #9591AF;
+    color: #fff;
+}

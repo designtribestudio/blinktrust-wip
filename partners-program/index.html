@@ -37,7 +37,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-	
+
 	<noscript>
 		<link rel="stylesheet" type="text/css" href="css/nojs.css" />
 		<link rel="stylesheet"
@@ -74,85 +74,103 @@
 </head>
 
 <body>
-	
-	<div class="privacy-platform" style="border: none">
+
+	<div class="navigation" style="border: none">
 		<nav>
-			<div class="nav-left" data-aos="fade-left" data-aos-duration="2000" >
+			<div class="nav-left" data-aos="fade-left" data-aos-duration="2000">
 				<div class="logo" onclick="location.href='../'" style="cursor: pointer;">
 					<img src="../img/home/nav-logo.svg" alt="">
 				</div>
 				<ul>
-					<li onclick="location.href='../partners-program'">Products</li>
+					<li onclick="location.href='./'">Products</li>
 					<li>Partners Program </li>
 					<li>Developers Community</li>
-					<li onclick="location.href='./'">Data Compliance</li>
+					<li onclick="location.href='../data-compliance'">Data Compliance</li>
 				</ul>
 				<div class="nav-beta">
 					<!-- <img src="../img/home/nav-beta.svg" alt=""> -->
 				</div>
 			</div>
-			<div class="nav-right" data-aos="fade-right" data-aos-duration="2000" >
+			<div class="nav-right" data-aos="fade-right" data-aos-duration="2000">
 				<!-- <img src="../img/home/Group 1697.svg" alt=""> -->
 			</div>
 		</nav>
+	</div>
 
-		<div class="logo-head">
-			<!-- <img src="../img/site/blinkhHubLogo.svg" alt="BlinkTrust Logo" data-aos="fade-down" data-aos-duration="2000"> -->
-			<p>REGULATIONS</p>
-			<br>
-			<span class="head-sub-text" data-aos="fade-up" data-aos-duration="2000">Data Compliance</span>
-			<br>
-			<!-- <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At id purus viverra mauris egestas aliquam. Diam augue pellentesque risus nulla euismod tincidunt sed feugiat.</h4> -->
-			<!-- <a href="login" class=" get-start-btn" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="3000">Get Started</a> -->
+	<div class="pp-hero-container">
+		<div class="pp-hero">
+			<h3>Partner Program</h3>
+			<h1>Join Our PrivacyOps Partners Program</h1>
+			<p>
+				BlinkTrust AI is at the forefront of the PrivacyOps movement. With a next-gen privacy management
+				platform
+				that’s powered by AI, we’re helping customers in every industry reduce risk and exposure as they strive
+				to
+				comply with complex regulations and simplify their privacy compliance.
+				<br><br>
+				As leaders in the PrivacyOps space, we’re committed to innovating and building solutions that will
+				enable
+				our partners to enhance their market presence, strengthen their differentiation, and grow their
+				business.
+			</p>
+			<button class="cReadMore" style="margin-top: 50px;">Become a Partner</button>
 		</div>
-		
+	</div>
+	<div class="" style="background-color: #FFFFFF; width: 1140px;
+	margin: -250px auto 0 auto; padding: 30px; height: 316px;
+	box-shadow: 0px 20.2109px 40.4219px -6.73698px rgba(0, 0, 0, 0.32); border-radius: 2px; position: relative; z-index: 1; ">
+
+		<div class="col-md-4">
+			<div class="cHighLighterInfo" data-aos="fade-right" data-aos-duration="1000">
+				<div class="cHighLighterImgBg">
+					<img src="./security-user.svg" alt="">
+				</div>
+				<h1 class="cHighLighterInfoHeader1">Privacy Advocates</h1>
+				<p class="cHighLighterInfoDesc1">Consultants and strategic advisory firms with privacy expertise can leverage our Securiti platform to build best-in-class privacy solutions for their customers. </p>
+
+			</div>
+		</div>
+
+		<div class="col-md-4 ">
+			<div class="cHighLighterInfo" data-aos="fade-up" data-aos-duration="1000">
+				<div class="cHighLighterImgBg">
+
+					<img src="./programming-arrows.svg" alt="">
+				</div>
+				<h1 class="cHighLighterInfoHeader1">Channel Partners</h1>
+				<p class="cHighLighterInfoDesc1">Select value-added resellers and integrators may resell Securiti. Channel partners receive co-marketing support, sales engagement support, access to sales enablement tools and world-class training and support.</p>
+
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="cHighLighterInfo" data-aos="fade-left" data-aos-duration="1000">
+				<div class="cHighLighterImgBg">
+					<img src="./people.svg" alt="">
+				</div>
+				<h1 class="cHighLighterInfoHeader1">Referral Partners</h1>
+				<p class="cHighLighterInfoDesc1">Referral partners receive sales and marketing support, including access to marketing collateral, training and sales enablement tools.</p>
+
+			</div>
 		</div>
 
 	</div>
 
-	<div class="selector" style="margin: 50px auto;">
-		<p class="selector-tab active" id="law-btn"
-		onclick="document.getElementById('law').style='display: grid'; document.getElementById('country').style='display: none'; document.getElementById('law-btn').className='selector-tab active';
-		document.getElementById('country-btn').className='selector-tab not-active'">By Law</p>
-		<p class="selector-tab not-active" id="country-btn" onclick="document.getElementById('country').style='display: grid'; document.getElementById('law').style='display: none'; document.getElementById('country-btn').className='selector-tab active';
-		document.getElementById('law-btn').className='selector-tab not-active'">By Country</p>
-	</div>
-
-	<div class="grid-container law" id="law">
-		<div class="grid-item"><img src="./ccpa.svg" alt=""></div>
-		<div class="grid-item"><img src="./gdpr.svg" alt=""></div>
-		<div class="grid-item"><img src="./lgpd.svg" alt=""></div>  
-		<div class="grid-item"><img src="./nzpa.svg" alt=""></div>
-		<div class="grid-item"><img src="./pdpa.svg" alt=""></div>
-		<div class="grid-item"><img src="./popia.svg" alt=""></div>
-		<div class="grid-item"><img src="./difc.svg" alt=""></div>  
-		<div class="grid-item"><img src="./aaps.svg" alt=""></div>
-		<div class="grid-item"><img src="./s-pdpa.svg" alt=""></div>
-		<div class="grid-item"><img src="./pipeda.svg" alt=""></div>
-		<div class="grid-item"><img src="./schrems.svg" alt=""></div>  
-		<div class="grid-item"><img src="./adhics.svg" alt=""></div>
-		<div class="grid-item"><img src="./ecl.svg" alt=""></div>
-		<div class="grid-item"><img src="./lppd.svg" alt=""></div>
-		<div class="grid-item"><img src="./idpd.svg" alt=""></div>  
-		<div class="grid-item"><img src="./dpa.svg" alt=""></div>
-	</div>
-	<div class="grid-container country" id="country">
-		<div class="grid-item"><img src="./usa.svg" alt=""></div>
-		<div class="grid-item"><img src="./china.svg" alt=""></div>
-		<div class="grid-item"><img src="./brazil.svg" alt=""></div>  
-		<div class="grid-item"><img src="./nz.svg" alt=""></div>
-		<div class="grid-item"><img src="./thailand.svg" alt=""></div>
-		<div class="grid-item"><img src="./sa.svg" alt=""></div>
-		<div class="grid-item"><img src="./dubai.svg" alt=""></div>  
-		<div class="grid-item"><img src="./aus.svg" alt=""></div>
-		<div class="grid-item"><img src="./singapore.svg" alt=""></div>
-		<div class="grid-item"><img src="./canada.svg" alt=""></div>
-		<div class="grid-item"><img src="./indo.svg" alt=""></div>  
-		<div class="grid-item"><img src="./kuwait.svg" alt=""></div>
-		<div class="grid-item"><img src="./saudi.svg" alt=""></div>
-		<div class="grid-item"><img src="./turkey.svg" alt=""></div>
-		<div class="grid-item"><img src="./india.svg" alt=""></div>  
-		<div class="grid-item"><img src="./ireland.svg" alt=""></div>
+	<div class="why-partner-container">
+		<div class="why-partner">
+			<h3>Placeholder Tagline</h3>
+			<h1>Why Partner with BlinkTrust AI?</h1>
+			<div class="reason-box">
+				<div class="reason">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			</div>
+			<div class="reason-box">
+				<div class="reason">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			</div>
+			<div class="reason-box">
+				<div class="reason">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			</div>
+			<button class="know-more">Know More</button>
+		</div>
 	</div>
 	<div class="cHomePage clearfix">
 		<div>
@@ -193,7 +211,8 @@
 									data-aos-duration="1000">
 									<!-- <i class="fa fa-shield"
 										aria-hidden="true"></i> -->
-									<img src="../img/site/shield-white.svg" alt="" style="width: 20px; margin: 0 5px 0 0">
+									<img src="../img/site/shield-white.svg" alt=""
+										style="width: 20px; margin: 0 5px 0 0">
 									Prevent
 									<span>Find Data at threat</span>
 								</button>
