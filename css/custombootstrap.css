@@ -1347,13 +1347,35 @@ nav {
 }
 
 .cHomePage .cHome_SecSix {
+  
   position: relative;
-  background: url(../img/site/Community\ Image.png);
+  background: linear-gradient(180deg, #282466 0%, #17143E 100%);
   background-size: cover;
   color: #ffffff;
-  padding: 100px;
+  padding: 0;
 }
 
+.cHomePage .cHome_SecSix .container{
+  width: 950px;
+  background: white;
+  padding: 100px 0;
+  height: 955px;
+  margin: 0 auto;
+}
+
+.cHomePage .cHome_SecSix .container img{
+  margin-left: -244px;
+  margin-top: -50px;
+}
+.cHomePage .cHome_SecSix .container .cReadMore{
+  position: relative;
+  left: 45%;
+  transform:translateX(-45%);
+  top: 50px;
+}
+.cHomePage .cHome_SecSix .imgsection-main-title{
+  margin: 0 auto;
+}
 .email_input {
   max-width: 650px;
   padding: 0 7px 0 20px;
