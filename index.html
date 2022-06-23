@@ -86,7 +86,7 @@
 					<!-- Editable options -->
 					<li onclick="location.href='#products'"> Products</li>
 					<li onclick="location.href='./partners-program'">Partners Program </li>
-					<li>Developers Community</li>
+					<li onclick="location.href='./developer-community'">Developers Community</li>
 					<li onclick="location.href='./data-compliance'">Data Compliance</li>
 				</ul>
 				<!-- Beta Icon Hidden
@@ -336,156 +336,7 @@
 			</div>
 			<!-- Main Image section end -->
 
-			<!-- Products section start -->
-			<div class="products-container" id="products">
-				<div class="products">
-					<h3>PRODUCTS</h3>
-					<h1>BlinkTrust platforms</h1>
-					<img src="./partners-program/Group 1644.svg" alt="">
-				</div>
-			</div>
-			<!-- Products section end -->
-
-			<!-- BT Discovery Engine start -->
-			<div class="cInner_SecTwo pb-40 slider-sec" id="discovery-section">
-				
-				
-				<!-- top section start -->
-
-				<div class="container" style="padding-top: 100px">
-					
-					<div class="col-md-6">
-						<img src="./img/home/bt-discovery.svg" alt=""><br><br>
-						<span class="head" data-aos="fade-left" data-aos-duration="1000">YOUR DATA OUR PRIORITY</span>
-						<br><br>
-						<h3 class="cSecOneInfoHeader" data-aos="fade-up" data-aos-duration="1000">Do you know where your
-							data lives at your organization?</h3>
-						<br>
-						<br>
-						<!-- <p class="detailPara" data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet,
-							consectetur adipiscing elit. At id purus viverra mauris egestas aliquam. Diam augue
-							pellentesque risus nulla euismod tincidunt sed feugiat.</p>  -->
-
-							<!-- editable sub-header -->
-					</div>
-
-					<div class="col-md-6">
-						<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel"
-							data-aos-duration="1000">
-							
-							<div class="carousel-inner">
-
-								<div class="item active">
-									<div class="row cSecOneInfo1 ">
-										<img class="slides slides-hidden" src="img/home/Group 1699.svg"
-											style="margin: 30px 0 0 60px;">
-										<img class="slides slides-hidden" src="img/home/Group 1700.svg"
-											style="margin: 30px 0 0 60px;">
-										<img class="slides slides-hidden" src="img/home/Group 1701.svg"
-											style="margin: 30px 0 0 60px;">
-									
-									</div>
-								</div>
-							</div>
-							
-						</div>
-
-
-					</div>
-
-
-
-				</div>
-				<!-- top section end -->
-
-
-
-				<!-- bottom section start -->
-				<div class="container" style="padding-top: 200px">
-
-					<div class="col-md-6 ">
-						<img src="img/home/auto-sensitive.svg" alt="">
-						<br>
-						<br>
-						<span class="head">what’s yours remains only
-							yours</span>
-						<br><br>
-						<h3 class="cSecOneInfoHeader">We protect data
-							where ever it lives</h3>
-						<br>
-						<br>
-						<button id="buttonData">ON-PREM</button>
-						<button id="buttonData">CLOUD</button>
-					</div>
-
-					<div class="col-md-6">
-						<div id="carouselExampleFade" class="carousel carousel-fade" data-ride="carousel">
-							
-							<div class="carousel-inner" style="overflow: visible !important;">
-
-								<div class="item active">
-									<div class="cInner_SecTwo">
-										<img class="slides2 slides2-hidden" src="img/home/protect-data-1.png">
-										<img class="slides2 slides2-hidden" src="img/home/protect-data-2.png">
-										<img class="slides2 slides2-hidden" src="img/home/protect-data-3.png">
-										<img class="slides2 slides2-hidden" src="img/home/protect-data-4.png">
-
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<!-- bottom section end -->
 			
-			</div>
-			<!-- BT Discovery Engine end -->
-
-
-			<style>
-				.slides {
-					width: 75%;
-				}
-
-				.slides-hidden {
-					display: none;
-				}
-
-				.slides2 {
-					width: 100%;
-				}
-
-				.slides2-hidden {
-					display: none;
-				}
-			</style>
-
-			<script>
-				addEventListener("load", () => { // "load" is safe but "DOMContentLoaded" starts earlier
-					var index = 0;
-					const slides = document.querySelectorAll(".slides");
-					const classHide = "slides-hidden", count = slides.length;
-					nextSlide();
-					function nextSlide() {
-						slides[(index++) % count].classList.add(classHide);
-						slides[index % count].classList.remove(classHide);
-						setTimeout(nextSlide, 2000);
-					}
-				});
-				addEventListener("load", () => { // "load" is safe but "DOMContentLoaded" starts earlier
-					var index2 = 0;
-					const slides2 = document.querySelectorAll(".slides2");
-					const classHide2 = "slides2-hidden", count = slides2.length;
-					nextSlide2();
-					function nextSlide2() {
-						slides2[(index2++) % count].classList.add(classHide2);
-						slides2[index2 % count].classList.remove(classHide2);
-						setTimeout(nextSlide2, 2000);
-					}
-				});
-			</script>
-
 
 			<!-- modal container start -->
 			<div class="modal-container">
@@ -924,6 +775,157 @@
 
 			</div>
 			<!-- modal container end -->
+
+
+			<!-- Products section start -->
+			<div class="products-container" id="products">
+				<div class="products">
+					<h3>PRODUCTS</h3>
+					<h1>BlinkTrust platform</h1>
+					<img src="./partners-program/Group 1644.svg" alt="">
+				</div>
+			</div>
+			<!-- Products section end -->
+
+			<!-- BT Discovery Engine start -->
+			<div class="cInner_SecTwo pb-40 slider-sec" id="discovery-section">
+				
+				
+				<!-- top section start -->
+
+				<div class="container" style="padding-top: 100px">
+					
+					<div class="col-md-6">
+						<img src="./img/home/bt-discovery.svg" alt=""><br><br>
+						<span class="head" data-aos="fade-left" data-aos-duration="1000">YOUR DATA OUR PRIORITY</span>
+						<br><br>
+						<h3 class="cSecOneInfoHeader" data-aos="fade-up" data-aos-duration="1000">Do you know where your
+							data lives at your organization?</h3>
+						<br>
+						<br>
+						<!-- <p class="detailPara" data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet,
+							consectetur adipiscing elit. At id purus viverra mauris egestas aliquam. Diam augue
+							pellentesque risus nulla euismod tincidunt sed feugiat.</p>  -->
+
+							<!-- editable sub-header -->
+					</div>
+
+					<div class="col-md-6">
+						<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel"
+							data-aos-duration="1000">
+							
+							<div class="carousel-inner">
+
+								<div class="item active">
+									<div class="row cSecOneInfo1 ">
+										<img class="slides slides-hidden" src="img/home/Group 1699.svg"
+											style="margin: 30px 0 0 60px;">
+										<img class="slides slides-hidden" src="img/home/Group 1700.svg"
+											style="margin: 30px 0 0 60px;">
+										<img class="slides slides-hidden" src="img/home/Group 1701.svg"
+											style="margin: 30px 0 0 60px;">
+									
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+
+					</div>
+
+
+
+				</div>
+				<!-- top section end -->
+
+
+
+				<!-- bottom section start -->
+				<div class="container" style="padding-top: 200px">
+
+					<div class="col-md-6 ">
+						<img src="img/home/auto-sensitive.svg" alt="">
+						<br>
+						<br>
+						<span class="head">what’s yours remains only
+							yours</span>
+						<br><br>
+						<h3 class="cSecOneInfoHeader">We protect data
+							where ever it lives</h3>
+						<br>
+						<br>
+						<button id="buttonData">ON-PREM</button>
+						<button id="buttonData">CLOUD</button>
+					</div>
+
+					<div class="col-md-6">
+						<div id="carouselExampleFade" class="carousel carousel-fade" data-ride="carousel">
+							
+							<div class="carousel-inner" style="overflow: visible !important;">
+
+								<div class="item active">
+									<div class="cInner_SecTwo">
+										<img class="slides2 slides2-hidden" src="img/home/protect-data-1.png">
+										<img class="slides2 slides2-hidden" src="img/home/protect-data-2.png">
+										<img class="slides2 slides2-hidden" src="img/home/protect-data-3.png">
+										<img class="slides2 slides2-hidden" src="img/home/protect-data-4.png">
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- bottom section end -->
+			
+			</div>
+			<!-- BT Discovery Engine end -->
+
+
+			<style>
+				.slides {
+					width: 75%;
+				}
+
+				.slides-hidden {
+					display: none;
+				}
+
+				.slides2 {
+					width: 100%;
+				}
+
+				.slides2-hidden {
+					display: none;
+				}
+			</style>
+
+			<script>
+				addEventListener("load", () => { // "load" is safe but "DOMContentLoaded" starts earlier
+					var index = 0;
+					const slides = document.querySelectorAll(".slides");
+					const classHide = "slides-hidden", count = slides.length;
+					nextSlide();
+					function nextSlide() {
+						slides[(index++) % count].classList.add(classHide);
+						slides[index % count].classList.remove(classHide);
+						setTimeout(nextSlide, 2000);
+					}
+				});
+				addEventListener("load", () => { // "load" is safe but "DOMContentLoaded" starts earlier
+					var index2 = 0;
+					const slides2 = document.querySelectorAll(".slides2");
+					const classHide2 = "slides2-hidden", count = slides2.length;
+					nextSlide2();
+					function nextSlide2() {
+						slides2[(index2++) % count].classList.add(classHide2);
+						slides2[index2 % count].classList.remove(classHide2);
+						setTimeout(nextSlide2, 2000);
+					}
+				});
+			</script>
 
 
 			<!--HighLighert_One_BG----start-->

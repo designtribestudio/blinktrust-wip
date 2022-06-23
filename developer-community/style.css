@@ -40,7 +40,9 @@ body{
     text-align: left;
     margin-bottom: 0;
 }
-
+nav{
+    margin: 0 auto;
+}
 .navigation {
     background-color: #19191F;
     /* background: rgba(25, 25, 31, 0.8);
@@ -113,191 +115,179 @@ backdrop-filter: blur(15px); */
     display: none;
 }
 
-.pp-hero-container{
+.dc-hero-container{
     position: relative;
-    top: -100px;
-    background: #9591AF;
+    background: url(../partners-program/windows-p74ndnYWRY4-unsplash\ 1.svg);
+    background-size: cover;
+    height: 613px;
 }
 
-.pp-hero{
+.dc-hero{
     width: 1140px;
+    height: 613px;
     margin: 0 auto;
     color: #fff;
-    padding: 95px 520px 260px 0;
+    background-size: contain no-repeat ;
+    padding: 264px 520px 0 0;
 }
 
-.pp-hero h3, .why-partner h3{
+.dc-hero-card{
+    width: 595px;
+    height: 292px;
+    background: #FFFFFF;
+/* Action cards Card */
+
+box-shadow: 0px 8px 36px -11px rgba(39, 57, 119, 0.16);
+border-radius: 4px;
+padding: 36px;
+}
+.dc-hero-card h3{
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 20px;
-line-height: 24px;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: left;
 letter-spacing: 0.2px;
-text-transform: uppercase;
+
+/* Purple_Blink Hub */
+
+color: #7465F1;
+margin: 0;
 }
 
-.pp-hero h1, .why-partner h1{
+.dc-hero-card h1{
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 48px;
-line-height: 64px;
-/* or 133% */
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
 
-letter-spacing: 0.0652651px;
+letter-spacing: 0.2px;
+text-align: left;
+/* Black_Blinkhub */
+
+color: #19191F;
 }
 
-.pp-hero p {
+.dc-hero-card p {
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 15px;
 line-height: 24px;
-/* or 171% */
+/* or 160% */
 
 letter-spacing: 0.2px;
+
+/* Black_Blinkhub */
+
+color: #19191F;
+margin: 17px 0 0 0;
 }
 
-.pp-hero::after{
-    content: url('./Group\ 1706.svg');
-    position: absolute;
-    top: 35px;
-    right: 0;
-}
-
-.why-partner{
-    width: 1140px;
-    margin: 150px auto;
-}
-
-.why-partner h3{
-    color: #5B588F;
-}
-
-.why-partner h1{
-    max-width: 520px;
-}
-
-.reason-box{
-    background: #FFFFFF;
-/* Light Drey_BlinkHub */
-
-border: 1.5px solid #E9E9F4;
-border-radius: 4px;
-    padding: 24px;
-    margin: 16px 0 0 0;
-    font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-}
-
-.know-more{
-    border: 2px solid #9591AF;
-border-radius: 33px;
-padding: 16px 36px;
-font-weight: 700;
+.joinUs{
+    margin: 30px 0 0 0;
+    padding: 16px 24px;
+    background-color: #69CA94;
+    color: #fff;
+    border-radius: 38px;
+    border:none;
+    font-weight: 700;
 font-size: 14px;
 line-height: 22px;
 /* identical to box height, or 157% */
 
 letter-spacing: 0.2px;
-
-/* Grey Text_Blink hub */
-
-color: #9591AF;
-background-color: transparent;
-position: relative;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-margin-top: 50px;
 }
 
-.know-more:hover{
-    background-color: #9591AF;
-    color: #fff;
+.joinUs:hover{
+    background-color: #4f966f;
 }
 
-.pp-why-container{
-    background: #272362;
-    height: 700px;
-    position: relative;
+.build-section{
+    min-height: 591px;
+    background: #E9E9F4;
+    padding: 124px 0;
 }
 
-.pp-why-partner{
-    width: 1140px;
-    margin: 0 auto;
-    padding: 150px 0;
-}
-
-.pp-why-partner h3{
+.build-section h1{
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 20px;
-line-height: 24px;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
 letter-spacing: 0.2px;
-text-transform: uppercase;
 
-/* Light Drey_BlinkHub */
+/* Black_Blinkhub */
 
-color: #E9E9F4;
+color: #19191F;
+margin: 0 0 24px 0;
+text-align: center;
 }
 
-.pp-why-partner h1{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 64px;
-/* or 133% */
-
-letter-spacing: 0.0652651px;
-
-/* Off White_Blink Hub */
-
-color: #FFFFFF;
-width: 520px;
-}
-
-.pp-why-partner p{
+.build-section h4{
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.2px;
+
+/* Black_Blinkhub */
+
+color: #19191F;
+margin: 0;
+text-align: center;
+}
+
+.build-section-cards{
+    width: 1140px;
+    margin: 65px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bs-card{
+    width: 355px;
+height: fit-content;
+min-height: 195px;
+background: #FFFFFF;
+box-shadow: 0px 8px 36px -11px rgba(39, 57, 119, 0.16);
+border-radius: 2px;
+padding: 20px;
+}
+.bs-card img{
+    margin-bottom: 14px;
+}
+.bs-card span{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+
+/* Black_Blinkhub */
+
+color: #19191F;
+}
+
+.bs-card p{
+    font-weight: 500;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
 
 letter-spacing: 0.2px;
 
-/* Off White_Blink Hub */
+/* Black_Blinkhub */
 
-color: #FFFFFF;
-width: 520px;
-}
-
-.pp-why-partner::after{
-    content: url('./Group\ 1707.svg');
-    position: absolute;
-    right: 0;
-    top: 90px;
-}
-
-.pp-form{
-    width: 1140px;
-    margin: 0 auto;
-    background: #F8F8FB;
-border-radius: 2px;
-padding: 120px 130px;
-}
-
-select{
-    width: 420px;
-    margin: 0 15px 0 0;
-    height: 50px;
-}
-
-.form-group{
-    margin: 0;
-    padding: 0;
+color: #19191F;
+margin-top: 12px;
 }
