@@ -543,7 +543,7 @@ line-height: 32px;
 
   .join-section{
     background: #E9E9F4;
-    padding: 164px 0;
+    padding: 164px 0 250px 0;
     border: none;
 }
 
@@ -581,4 +581,35 @@ text-fill-color: transparent;
     position: absolute;
     top: -45px;
     right: -20px;
+}
+
+.js-form h3{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+
+/* Black_Blinkhub */
+
+color: #19191F;
+}
+
+.js-form input{
+    width: 409px;
+height: 60px;
+border: 1px solid #9591AF;
+border-radius: 6px;
+margin: 12px 0 12px 0;
+}
+
+.js-form input::placeholder{
+    color: #000;
+}
+
+.js-form a{
+    position: relative;
+    left: 37%;
+    transform: translateX(-37%);
+    top: 30px;
 }
