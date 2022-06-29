@@ -604,8 +604,8 @@ nav {
 
 .close,
 .modal-header-content .cReadMore {
-  /* position: relative;
-  z-index: 5; */
+  position: relative;
+  z-index: 5;
 }
 
 .modal-dialog {
