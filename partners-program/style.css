@@ -301,3 +301,163 @@ select{
     margin: 0;
     padding: 0;
 }
+
+select.options{
+    width: 409px !important;
+    margin: 0 0 12px 0;
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+padding: 0 18px;
+border-radius: 6px;
+}
+
+select.options::placeholder{
+    margin: 0;
+}
+
+input{
+    width: 409px !important;
+    height: 60px !important;
+    border: 1px solid #9591AF !important;
+    border-radius: 6px !important;
+    margin: 12px 0;
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+padding: 0 20px !important;
+color: #000 !important;
+}
+
+input::placeholder{
+    color: #000 !important;
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pp-form h1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+
+/* Black_Blinkhub */
+
+color: #19191F;
+margin: 24px 0;
+}
+
+textarea.pp-textarea{
+    font-family: Montserrat;
+    width: 864px;
+    height: 172px; 
+    border: 1px solid #9591AF;
+    border-radius: 6px;
+    margin-top: 12px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+padding: 20px;
+color: #000;
+}
+
+textarea.pp-textarea::placeholder{
+    color: #000;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 20px 0; 
+}
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background: #FFFFFF;
+/* Grey Text_Blink hub */
+
+border: 1px solid #9591AF;
+border-radius: 2px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  label.container{
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.2px;
+
+/* Grey Text_Blink hub */
+
+color: #9591AF;
+  }
+
+  .form-submit{
+    position: relative;
+    left: 48%;
+    transform: translateX(-48%);
+  }

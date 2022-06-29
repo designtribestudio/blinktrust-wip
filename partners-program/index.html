@@ -199,28 +199,35 @@
 			</p>
 		</div>
 		<form class="pp-form">
-			<div class="form-group col-md-6">
-				<select id="partnership" name="partnership">
-					<option value="">Type of Partnership</option>
-					<option value="1">Option 1</option>
-					<option value="2">Option 2</option>
-				</select>
+			<h1>COMPANY DETAILS</h1>
+			<div class="form-row">
+				<div class="form-group col-md-6" style="padding: 0 15px 0 0">
+					<select id="partnership" name="partnership" class="options">
+						<option value="">Type of Partnership</option>
+						<option value="1">Option 1</option>
+						<option value="2">Option 2</option>
+					</select>
+				</div>
+				<div class="form-group col-md-6" style="padding: 0 0 0 15px">
+					<select id="chq" name="chq" class="options">
+						<option value="">Company Headquarters</option>
+						<option value="1">Option 1</option>
+						<option value="2">Option 2</option>
+					</select>
+				</div>
 			</div>
-			<div class="form-group col-md-6">
-				<select id="chq" name="chq">
-					<option value="">Company Headquarters</option>
-					<option value="1">Option 1</option>
-					<option value="2">Option 2</option>
-				</select>
-			</div>
+
 			<div class="form-row">
 				<div class="form-group col-md-6" style="padding: 0 15px 0 0">
 					<input type="text" class="form-control" id="inputFirstName" placeholder="Company Website">
 				</div>
 				<div class="form-group col-md-6" style="padding: 0 0 0 15px">
-					<input type="text" class="form-control" id="inputLastName" placeholder="Company Phone Number (Optional)">
+					<input type="text" class="form-control" id="inputLastName"
+						placeholder="Company Phone Number (Optional)">
 				</div>
 			</div>
+
+			<h1>YOUR DETAILS</h1>
 			<div class="form-row">
 				<div class="form-group col-md-6" style="padding: 0 15px 0 0">
 					<input type="text" class="form-control" id="inputFirstName" placeholder="Full Name*">
@@ -238,10 +245,13 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<textarea name="desc" placeholder="Message" style="font-family: Montserrat;"></textarea><br>
+				<textarea class="pp-textarea" name="desc" placeholder="Message"></textarea><br>
 			</div>
-
-			<button type="submit" class="btn btn-primary">Get early Access</button>
+			<label class="container">Yes, I consent to receive email updates about Securiti.ai products, services, and offers. I understand that I can unsubscribe at any time. By submitting your information, you agree to the terms outlined in our privacy policy.
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+			  </label>
+			<button type="submit" class="cReadMore form-submit">Submit</button>
 
 
 		</form>
