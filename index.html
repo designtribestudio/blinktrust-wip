@@ -72,6 +72,444 @@
 </head>
 
 <body>
+	<!-- modal container start -->
+	<div class="modal-container">
+
+				
+		<!-- modal 1 start -->
+		<div class="modal fade" id="firstModal" role="dialog">
+			<div class="modal-dialog">
+
+
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" onclick="mod1stop()"><img
+								src="img/site/modal-close.svg" alt=""></button>
+						<div class="modal-header-content">
+							<div class="modal-header-text">
+								<div class="imgsection-title">
+									HOW TO USE BLINKTRUST AI
+								</div>
+								<div class="imgsection-main-title">
+									BlinkTrust AI Plugins for IDEs
+								</div>
+								<div class="imgsection-sub-title">
+									Follow the steps below showing how to download and install BlinkTrust AI
+									Data
+									Privacy Checker into the IDE of your choice.
+								</div>
+							</div>
+							<button class="cReadMore">Try Our Plugin</button>
+						</div>
+
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li class="active" id="ps1" onclick="this.className='active';
+							document.getElementById('ps2').className='unvisited';
+							document.getElementById('ps3').className='unvisited';
+							document.getElementById('ps4').className='unvisited';
+							document.getElementById('pi1').style.display='block';
+							document.getElementById('pi2').style.display='none';
+							document.getElementById('pi3').style.display='none';
+							document.getElementById('pi4').style.display='none';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Select Platform</h4>
+									<p class="modal-list-desc">To use our plugins for scanning data
+										vulnerability, begin by selecting the IDE of your choice from the list.
+									</p>
+								</div>
+							</li>
+							<li class="unvisited" id="ps2" onclick="this.className='active';
+							document.getElementById('ps1').className='visited';
+							document.getElementById('ps3').className='unvisited';
+							document.getElementById('ps4').className='unvisited';
+							document.getElementById('pi1').style.display='none';
+							document.getElementById('pi2').style.display='block';
+							document.getElementById('pi3').style.display='none';
+							document.getElementById('pi4').style.display='none';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Choose Plugin</h4>
+									<p class="modal-list-desc">From the IDE marketplace, search for ‘BlinkTrust
+										AI
+										plugin’ or find the plugin featured on the home screen. </p>
+								</div>
+							</li>
+							<li class="unvisited" id="ps3" onclick="this.className='active';
+							document.getElementById('ps1').className='visited';
+							document.getElementById('ps2').className='visited';
+							document.getElementById('ps4').className='unvisited';
+							document.getElementById('pi1').style.display='none';
+							document.getElementById('pi2').style.display='none';
+							document.getElementById('pi3').style.display='block';
+							document.getElementById('pi4').style.display='none';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Download & Install Plugin</h4>
+									<p class="modal-list-desc">Click the “Download” button on the BlinkTrust AI
+										details page to install the plugin onto your IDE software.</p>
+								</div>
+							</li>
+							<li class="unvisited" id="ps4" onclick="this.className='active';
+							document.getElementById('ps1').className='visited';
+							document.getElementById('ps2').className='visited';
+							document.getElementById('ps3').className='visited';
+							document.getElementById('pi1').style.display='none';
+							document.getElementById('pi2').style.display='none';
+							document.getElementById('pi3').style.display='none';
+							document.getElementById('pi4').style.display='block';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Plugin Installed</h4>
+									<p class="modal-list-desc">You’re all set! The plugin is available to access
+										from the ‘Plugins’ menu in your IDE software interface.</p>
+								</div>
+							</li>
+						</ul>
+						<div class="modal-img-container" id="FirstModalBody">
+							<div class="modal-body-img" id="modalImgSlide">
+								<img id="pi1" src="img/site/p1.png" style="display: block;" alt="">
+								<img id="pi2" src="img/site/p2.png" style="display:none" alt="">
+								<img id="pi3" src="img/site/p3.png" style="display:none" alt="">
+								<img id="pi4" src="img/site/p4.png" style="display:none" alt="">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>  
+		<!-- modal 1 end -->
+
+		<script>
+			function ps2() {
+				document.querySelector('#ps2').click();
+			}
+
+			function ps3() {
+				document.querySelector('#ps3').click();
+			}
+
+			function ps4() {
+				document.querySelector('#ps4').click();
+			}
+
+			function ps1() {
+				document.querySelector('#ps1').click();
+			}
+			var mod1interval = setInterval(mod1, 16000);
+			var mod1ps2 = setTimeout(ps2, 4000);
+			var mod1ps3 = setTimeout(ps3, 8000);
+			var mod1ps4 = setTimeout(ps4, 12000);
+			var mod1ps1 = setTimeout(ps1, 16000);
+			// Simulate a click every second
+			function mod1() {
+				ps1();
+				clearInterval(mod1interval);
+				clearTimeout(mod1ps1);
+				clearTimeout(mod1ps2);
+				clearTimeout(mod1ps3);
+				clearTimeout(mod1ps4);
+				mod1ps2 = setTimeout(ps2, 4000);
+				mod1ps3 = setTimeout(ps3, 8000);
+				mod1ps4 = setTimeout(ps4, 12000);
+				mod1ps1 = setTimeout(ps1, 16000);
+				mod1interval = setInterval(mod1start, 16000);
+			}
+
+			function mod1start() {
+				mod1ps2 = setTimeout(ps2, 4000);
+				mod1ps3 = setTimeout(ps3, 8000);
+				mod1ps4 = setTimeout(ps4, 12000);
+				mod1ps1 = setTimeout(ps1, 16000);
+				// clearTimeout(mod1ps2);
+				// clearTimeout(mod1ps3);
+				// clearTimeout(mod1ps4);
+				// clearTimeout(mod1ps1);
+			}
+
+			function mod1stop() {
+				clearInterval(mod1interval);
+				clearTimeout(mod1ps1);
+				clearTimeout(mod1ps2);
+				clearTimeout(mod1ps3);
+				clearTimeout(mod1ps4);
+			}
+
+
+		</script>
+
+		<!-- modal 2 start -->
+		<div class="modal fade" id="secondModal" role="dialog">
+			<div class="modal-dialog">
+
+
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" onclick="mod2stop()"><img
+								src="img/site/modal-close.svg" alt=""></button>
+						<div class="modal-header-content">
+							<div class="modal-header-text">
+								<div class="imgsection-title">
+									HOW TO USE BLINKHUB
+								</div>
+								<div class="imgsection-main-title">
+									Finding Vulnerabilities is Easy
+								</div>
+								<div class="imgsection-sub-title">
+									Follow the steps below showing how to upload data onto BlinkTrust AI and
+									find
+									inconsistencies as per global complaince standards.
+								</div>
+							</div>
+							<button class="cReadMore">Try Our Product</button>
+						</div>
+
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li class="active" id="fs1" onclick="this.className='active';
+							document.getElementById('fs2').className='unvisited';
+							document.getElementById('fs3').className='unvisited';
+							document.getElementById('fs4').className='unvisited';
+							document.getElementById('fs5').className='unvisited';
+							document.getElementById('fs6').className='unvisited';
+							document.getElementById('fi1').style.display='block';
+							document.getElementById('fi2').style.display='none';
+							document.getElementById('fi3').style.display='none';
+							document.getElementById('fi4').style.display='none';
+							document.getElementById('fi5').style.display='none';
+							document.getElementById('fi6').style.display='none';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Open the BlinkTrust AI Software</h4>
+									<p class="modal-list-desc">Choose whether to find threats in you data, track
+										your data for vulnerabilities or protect your data from attacks.</p>
+								</div>
+							</li>
+							<li class="unvisited" id="fs2" onclick="this.className='active';
+							document.getElementById('fs1').className='visited';
+							document.getElementById('fs3').className='unvisited';
+							document.getElementById('fs4').className='unvisited';
+							document.getElementById('fs5').className='unvisited';
+							document.getElementById('fs6').className='unvisited';
+							document.getElementById('fi1').style.display='none';
+							document.getElementById('fi2').style.display='block';
+							document.getElementById('fi3').style.display='none';
+							document.getElementById('fi4').style.display='none';
+							document.getElementById('fi5').style.display='none';
+							document.getElementById('fi6').style.display='none';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Choose your Data type</h4>
+									<p class="modal-list-desc">Select source/platform of your data repository
+										set to be scanned, or upload external file in .csv, .txt and other
+										formats.</p>
+								</div>
+							</li>
+							<li class="unvisited" id="fs3" onclick="this.className='active';
+							document.getElementById('fs1').className='visited';
+							document.getElementById('fs2').className='visited';
+							document.getElementById('fs4').className='unvisited';
+							document.getElementById('fs5').className='unvisited';
+							document.getElementById('fs6').className='unvisited';
+							document.getElementById('fi1').style.display='none';
+							document.getElementById('fi2').style.display='none';
+							document.getElementById('fi3').style.display='block';
+							document.getElementById('fi4').style.display='none';
+							document.getElementById('fi5').style.display='none';
+							document.getElementById('fi6').style.display='none';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Upload your Data</h4>
+									<p class="modal-list-desc">Connect and specify which repository you want to
+										be scanned for vulnerabilities and other security risks.</p>
+								</div>
+							</li>
+							<li class="unvisited" id="fs4" onclick="this.className='active';
+							document.getElementById('fs1').className='visited';
+							document.getElementById('fs2').className='visited';
+							document.getElementById('fs3').className='visited';
+							document.getElementById('fs5').className='unvisited';
+							document.getElementById('fs6').className='unvisited';
+							document.getElementById('fi1').style.display='none';
+							document.getElementById('fi2').style.display='none';
+							document.getElementById('fi3').style.display='none';
+							document.getElementById('fi4').style.display='block';
+							document.getElementById('fi5').style.display='none';
+							document.getElementById('fi6').style.display='none';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Choose the Security laws</h4>
+									<p class="modal-list-desc">Browse and select security laws which your data
+										would undergo compliance and privacy standard checks with.</p>
+								</div>
+							</li>
+							<li class="unvisited" id="fs5" onclick="this.className='active';
+							document.getElementById('fs1').className='visited';
+							document.getElementById('fs2').className='visited';
+							document.getElementById('fs3').className='visited';
+							document.getElementById('fs4').className='visited';
+							document.getElementById('fs6').className='unvisited';
+							document.getElementById('fi1').style.display='none';
+							document.getElementById('fi2').style.display='none';
+							document.getElementById('fi3').style.display='none';
+							document.getElementById('fi4').style.display='none';
+							document.getElementById('fi5').style.display='block';
+							document.getElementById('fi6').style.display='none';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Scanning your Data</h4>
+									<p class="modal-list-desc">You’re all set! Wait for your repositories (or
+										files) to be scanned. A notification will pop-up informing you upon
+										completion.</p>
+								</div>
+							</li>
+							<li class="unvisited" id="fs6" onclick="this.className='active';
+							document.getElementById('fs1').className='visited';
+							document.getElementById('fs2').className='visited';
+							document.getElementById('fs3').className='visited';
+							document.getElementById('fs4').className='visited';
+							document.getElementById('fs5').className='visited';
+							document.getElementById('fi1').style.display='none';
+							document.getElementById('fi2').style.display='none';
+							document.getElementById('fi3').style.display='none';
+							document.getElementById('fi4').style.display='none';
+							document.getElementById('fi5').style.display='none';
+							document.getElementById('fi6').style.display='block';
+							">
+								<div class="radio-btn-unvisited"></div>
+								<div class="radio-btn"></div>
+								<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+								<div class="modal-list">
+									<h4>Report Ready!</h4>
+									<p class="modal-list-desc">Get a detailed report laying out types of
+										sensitive data scanned, top datapoints, and vulnerabilities found in
+										your data.</p>
+								</div>
+							</li>
+						</ul>
+						<div class="modal-img-container" id="FirstModalBody">
+							<div class="modal-body-img" id="modalImgSlide">
+								<img id="fi1" src="img/site/f1.png" style="display: block;" alt="">
+								<img id="fi2" src="img/site/f2.png" style="display:none" alt="">
+								<img id="fi3" src="img/site/f3.png" style="display:none" alt="">
+								<img id="fi4" src="img/site/f4.png" style="display:none" alt="">
+								<img id="fi5" src="img/site/f5.png" style="display:none" alt="">
+								<img id="fi6" src="img/site/f6.png" style="display:none" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- modal 2 end -->
+
+		<script>
+			function fs2() {
+				document.querySelector('#fs2').click();
+			}
+
+			function fs3() {
+				document.querySelector('#fs3').click();
+			}
+
+			function fs4() {
+				document.querySelector('#fs4').click();
+			}
+			function fs5() {
+				document.querySelector('#fs5').click();
+			}
+			function fs6() {
+				document.querySelector('#fs6').click();
+			}
+			function fs1() {
+				document.querySelector('#fs1').click();
+			}
+			// Simulate a click every second
+			var mod2interval = setInterval(mod2, 24000);
+			var mod2fs2 = setTimeout(fs2, 4000);
+			var mod2fs3 = setTimeout(fs3, 8000);
+			var mod2fs4 = setTimeout(fs4, 12000);
+			var mod2fs5 = setTimeout(fs5, 16000);
+			var mod2fs6 = setTimeout(fs6, 20000);
+			var mod2fs1 = setTimeout(fs1, 24000);
+			function mod2() {
+				fs1();
+				clearInterval(mod2interval);
+				clearTimeout(mod2fs1);
+				clearTimeout(mod2fs2);
+				clearTimeout(mod2fs3);
+				clearTimeout(mod2fs4);
+				clearTimeout(mod2fs5);
+				clearTimeout(mod2fs6);
+				mod2fs2 = setTimeout(fs2, 4000);
+				mod2fs3 = setTimeout(fs3, 8000);
+				mod2fs4 = setTimeout(fs4, 12000);
+				mod2fs5 = setTimeout(fs5, 16000);
+				mod2fs6 = setTimeout(fs6, 24000)
+				mod2interval = setInterval(mod2start, 24000);
+			}
+
+			function mod2start() {
+				mod2fs2 = setTimeout(fs2, 4000);
+				mod2fs3 = setTimeout(fs3, 8000);
+				mod2fs4 = setTimeout(fs4, 12000);
+				mod2fs5 = setTimeout(fs5, 16000);
+				mod2fs6 = setTimeout(fs6, 20000);
+				mod2fs1 = setTimeout(fs1, 24000);
+				// clearTimeout(mod1ps2);
+				// clearTimeout(mod1ps3);
+				// clearTimeout(mod1ps4);
+				// clearTimeout(mod1ps1);
+			}
+
+			function mod2stop() {
+				clearInterval(mod2interval);
+				clearTimeout(mod2fs1);
+				clearTimeout(mod2fs2);
+				clearTimeout(mod2fs3);
+				clearTimeout(mod2fs4);
+				clearTimeout(mod2fs5);
+				clearTimeout(mod2fs6);
+			}
+
+		</script>
+
+	</div>
+	<!-- modal container end -->
+
 	<!-- Top -->
 	<div class="privacy-platform">
 
@@ -487,444 +925,7 @@
 			</script>
 
 
-			<!-- modal container start -->
-			<div class="modal-container">
-
-				
-				<!-- modal 1 start -->
-				<div class="modal fade" id="firstModal" role="dialog">
-					<div class="modal-dialog">
-
-
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" onclick="mod1stop()"><img
-										src="img/site/modal-close.svg" alt=""></button>
-								<div class="modal-header-content">
-									<div class="modal-header-text">
-										<div class="imgsection-title">
-											HOW TO USE BLINKTRUST AI
-										</div>
-										<div class="imgsection-main-title">
-											BlinkTrust AI Plugins for IDEs
-										</div>
-										<div class="imgsection-sub-title">
-											Follow the steps below showing how to download and install BlinkTrust AI
-											Data
-											Privacy Checker into the IDE of your choice.
-										</div>
-									</div>
-									<button class="cReadMore">Try Our Plugin</button>
-								</div>
-
-							</div>
-							<div class="modal-body">
-								<ul>
-									<li class="active" id="ps1" onclick="this.className='active';
-									document.getElementById('ps2').className='unvisited';
-									document.getElementById('ps3').className='unvisited';
-									document.getElementById('ps4').className='unvisited';
-									document.getElementById('pi1').style.display='block';
-									document.getElementById('pi2').style.display='none';
-									document.getElementById('pi3').style.display='none';
-									document.getElementById('pi4').style.display='none';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Select Platform</h4>
-											<p class="modal-list-desc">To use our plugins for scanning data
-												vulnerability, begin by selecting the IDE of your choice from the list.
-											</p>
-										</div>
-									</li>
-									<li class="unvisited" id="ps2" onclick="this.className='active';
-									document.getElementById('ps1').className='visited';
-									document.getElementById('ps3').className='unvisited';
-									document.getElementById('ps4').className='unvisited';
-									document.getElementById('pi1').style.display='none';
-									document.getElementById('pi2').style.display='block';
-									document.getElementById('pi3').style.display='none';
-									document.getElementById('pi4').style.display='none';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Choose Plugin</h4>
-											<p class="modal-list-desc">From the IDE marketplace, search for ‘BlinkTrust
-												AI
-												plugin’ or find the plugin featured on the home screen. </p>
-										</div>
-									</li>
-									<li class="unvisited" id="ps3" onclick="this.className='active';
-									document.getElementById('ps1').className='visited';
-									document.getElementById('ps2').className='visited';
-									document.getElementById('ps4').className='unvisited';
-									document.getElementById('pi1').style.display='none';
-									document.getElementById('pi2').style.display='none';
-									document.getElementById('pi3').style.display='block';
-									document.getElementById('pi4').style.display='none';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Download & Install Plugin</h4>
-											<p class="modal-list-desc">Click the “Download” button on the BlinkTrust AI
-												details page to install the plugin onto your IDE software.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="ps4" onclick="this.className='active';
-									document.getElementById('ps1').className='visited';
-									document.getElementById('ps2').className='visited';
-									document.getElementById('ps3').className='visited';
-									document.getElementById('pi1').style.display='none';
-									document.getElementById('pi2').style.display='none';
-									document.getElementById('pi3').style.display='none';
-									document.getElementById('pi4').style.display='block';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Plugin Installed</h4>
-											<p class="modal-list-desc">You’re all set! The plugin is available to access
-												from the ‘Plugins’ menu in your IDE software interface.</p>
-										</div>
-									</li>
-								</ul>
-								<div class="modal-img-container" id="FirstModalBody">
-									<div class="modal-body-img" id="modalImgSlide">
-										<img id="pi1" src="img/site/p1.png" style="display: block;" alt="">
-										<img id="pi2" src="img/site/p2.png" style="display:none" alt="">
-										<img id="pi3" src="img/site/p3.png" style="display:none" alt="">
-										<img id="pi4" src="img/site/p4.png" style="display:none" alt="">
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-					</div>
-				</div>  
-				<!-- modal 1 end -->
-
-				<script>
-					function ps2() {
-						document.querySelector('#ps2').click();
-					}
-
-					function ps3() {
-						document.querySelector('#ps3').click();
-					}
-
-					function ps4() {
-						document.querySelector('#ps4').click();
-					}
-
-					function ps1() {
-						document.querySelector('#ps1').click();
-					}
-					var mod1interval = setInterval(mod1, 16000);
-					var mod1ps2 = setTimeout(ps2, 4000);
-					var mod1ps3 = setTimeout(ps3, 8000);
-					var mod1ps4 = setTimeout(ps4, 12000);
-					var mod1ps1 = setTimeout(ps1, 16000);
-					// Simulate a click every second
-					function mod1() {
-						ps1();
-						clearInterval(mod1interval);
-						clearTimeout(mod1ps1);
-						clearTimeout(mod1ps2);
-						clearTimeout(mod1ps3);
-						clearTimeout(mod1ps4);
-						mod1ps2 = setTimeout(ps2, 4000);
-						mod1ps3 = setTimeout(ps3, 8000);
-						mod1ps4 = setTimeout(ps4, 12000);
-						mod1ps1 = setTimeout(ps1, 16000);
-						mod1interval = setInterval(mod1start, 16000);
-					}
-
-					function mod1start() {
-						mod1ps2 = setTimeout(ps2, 4000);
-						mod1ps3 = setTimeout(ps3, 8000);
-						mod1ps4 = setTimeout(ps4, 12000);
-						mod1ps1 = setTimeout(ps1, 16000);
-						// clearTimeout(mod1ps2);
-						// clearTimeout(mod1ps3);
-						// clearTimeout(mod1ps4);
-						// clearTimeout(mod1ps1);
-					}
-
-					function mod1stop() {
-						clearInterval(mod1interval);
-						clearTimeout(mod1ps1);
-						clearTimeout(mod1ps2);
-						clearTimeout(mod1ps3);
-						clearTimeout(mod1ps4);
-					}
-
-
-				</script>
-
-				<!-- modal 2 start -->
-				<div class="modal fade" id="secondModal" role="dialog">
-					<div class="modal-dialog">
-
-
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" onclick="mod2stop()"><img
-										src="img/site/modal-close.svg" alt=""></button>
-								<div class="modal-header-content">
-									<div class="modal-header-text">
-										<div class="imgsection-title">
-											HOW TO USE BLINKHUB
-										</div>
-										<div class="imgsection-main-title">
-											Finding Vulnerabilities is Easy
-										</div>
-										<div class="imgsection-sub-title">
-											Follow the steps below showing how to upload data onto BlinkTrust AI and
-											find
-											inconsistencies as per global complaince standards.
-										</div>
-									</div>
-									<button class="cReadMore">Try Our Product</button>
-								</div>
-
-							</div>
-							<div class="modal-body">
-								<ul>
-									<li class="active" id="fs1" onclick="this.className='active';
-									document.getElementById('fs2').className='unvisited';
-									document.getElementById('fs3').className='unvisited';
-									document.getElementById('fs4').className='unvisited';
-									document.getElementById('fs5').className='unvisited';
-									document.getElementById('fs6').className='unvisited';
-									document.getElementById('fi1').style.display='block';
-									document.getElementById('fi2').style.display='none';
-									document.getElementById('fi3').style.display='none';
-									document.getElementById('fi4').style.display='none';
-									document.getElementById('fi5').style.display='none';
-									document.getElementById('fi6').style.display='none';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Open the BlinkTrust AI Software</h4>
-											<p class="modal-list-desc">Choose whether to find threats in you data, track
-												your data for vulnerabilities or protect your data from attacks.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs2" onclick="this.className='active';
-									document.getElementById('fs1').className='visited';
-									document.getElementById('fs3').className='unvisited';
-									document.getElementById('fs4').className='unvisited';
-									document.getElementById('fs5').className='unvisited';
-									document.getElementById('fs6').className='unvisited';
-									document.getElementById('fi1').style.display='none';
-									document.getElementById('fi2').style.display='block';
-									document.getElementById('fi3').style.display='none';
-									document.getElementById('fi4').style.display='none';
-									document.getElementById('fi5').style.display='none';
-									document.getElementById('fi6').style.display='none';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Choose your Data type</h4>
-											<p class="modal-list-desc">Select source/platform of your data repository
-												set to be scanned, or upload external file in .csv, .txt and other
-												formats.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs3" onclick="this.className='active';
-									document.getElementById('fs1').className='visited';
-									document.getElementById('fs2').className='visited';
-									document.getElementById('fs4').className='unvisited';
-									document.getElementById('fs5').className='unvisited';
-									document.getElementById('fs6').className='unvisited';
-									document.getElementById('fi1').style.display='none';
-									document.getElementById('fi2').style.display='none';
-									document.getElementById('fi3').style.display='block';
-									document.getElementById('fi4').style.display='none';
-									document.getElementById('fi5').style.display='none';
-									document.getElementById('fi6').style.display='none';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Upload your Data</h4>
-											<p class="modal-list-desc">Connect and specify which repository you want to
-												be scanned for vulnerabilities and other security risks.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs4" onclick="this.className='active';
-									document.getElementById('fs1').className='visited';
-									document.getElementById('fs2').className='visited';
-									document.getElementById('fs3').className='visited';
-									document.getElementById('fs5').className='unvisited';
-									document.getElementById('fs6').className='unvisited';
-									document.getElementById('fi1').style.display='none';
-									document.getElementById('fi2').style.display='none';
-									document.getElementById('fi3').style.display='none';
-									document.getElementById('fi4').style.display='block';
-									document.getElementById('fi5').style.display='none';
-									document.getElementById('fi6').style.display='none';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Choose the Security laws</h4>
-											<p class="modal-list-desc">Browse and select security laws which your data
-												would undergo compliance and privacy standard checks with.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs5" onclick="this.className='active';
-									document.getElementById('fs1').className='visited';
-									document.getElementById('fs2').className='visited';
-									document.getElementById('fs3').className='visited';
-									document.getElementById('fs4').className='visited';
-									document.getElementById('fs6').className='unvisited';
-									document.getElementById('fi1').style.display='none';
-									document.getElementById('fi2').style.display='none';
-									document.getElementById('fi3').style.display='none';
-									document.getElementById('fi4').style.display='none';
-									document.getElementById('fi5').style.display='block';
-									document.getElementById('fi6').style.display='none';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Scanning your Data</h4>
-											<p class="modal-list-desc">You’re all set! Wait for your repositories (or
-												files) to be scanned. A notification will pop-up informing you upon
-												completion.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs6" onclick="this.className='active';
-									document.getElementById('fs1').className='visited';
-									document.getElementById('fs2').className='visited';
-									document.getElementById('fs3').className='visited';
-									document.getElementById('fs4').className='visited';
-									document.getElementById('fs5').className='visited';
-									document.getElementById('fi1').style.display='none';
-									document.getElementById('fi2').style.display='none';
-									document.getElementById('fi3').style.display='none';
-									document.getElementById('fi4').style.display='none';
-									document.getElementById('fi5').style.display='none';
-									document.getElementById('fi6').style.display='block';
-									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Report Ready!</h4>
-											<p class="modal-list-desc">Get a detailed report laying out types of
-												sensitive data scanned, top datapoints, and vulnerabilities found in
-												your data.</p>
-										</div>
-									</li>
-								</ul>
-								<div class="modal-img-container" id="FirstModalBody">
-									<div class="modal-body-img" id="modalImgSlide">
-										<img id="fi1" src="img/site/f1.png" style="display: block;" alt="">
-										<img id="fi2" src="img/site/f2.png" style="display:none" alt="">
-										<img id="fi3" src="img/site/f3.png" style="display:none" alt="">
-										<img id="fi4" src="img/site/f4.png" style="display:none" alt="">
-										<img id="fi5" src="img/site/f5.png" style="display:none" alt="">
-										<img id="fi6" src="img/site/f6.png" style="display:none" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<!-- modal 2 end -->
-
-				<script>
-					function fs2() {
-						document.querySelector('#fs2').click();
-					}
-
-					function fs3() {
-						document.querySelector('#fs3').click();
-					}
-
-					function fs4() {
-						document.querySelector('#fs4').click();
-					}
-					function fs5() {
-						document.querySelector('#fs5').click();
-					}
-					function fs6() {
-						document.querySelector('#fs6').click();
-					}
-					function fs1() {
-						document.querySelector('#fs1').click();
-					}
-					// Simulate a click every second
-					var mod2interval = setInterval(mod2, 24000);
-					var mod2fs2 = setTimeout(fs2, 4000);
-					var mod2fs3 = setTimeout(fs3, 8000);
-					var mod2fs4 = setTimeout(fs4, 12000);
-					var mod2fs5 = setTimeout(fs5, 16000);
-					var mod2fs6 = setTimeout(fs6, 20000);
-					var mod2fs1 = setTimeout(fs1, 24000);
-					function mod2() {
-						fs1();
-						clearInterval(mod2interval);
-						clearTimeout(mod2fs1);
-						clearTimeout(mod2fs2);
-						clearTimeout(mod2fs3);
-						clearTimeout(mod2fs4);
-						clearTimeout(mod2fs5);
-						clearTimeout(mod2fs6);
-						mod2fs2 = setTimeout(fs2, 4000);
-						mod2fs3 = setTimeout(fs3, 8000);
-						mod2fs4 = setTimeout(fs4, 12000);
-						mod2fs5 = setTimeout(fs5, 16000);
-						mod2fs6 = setTimeout(fs6, 24000)
-						mod2interval = setInterval(mod2start, 24000);
-					}
-
-					function mod2start() {
-						mod2fs2 = setTimeout(fs2, 4000);
-						mod2fs3 = setTimeout(fs3, 8000);
-						mod2fs4 = setTimeout(fs4, 12000);
-						mod2fs5 = setTimeout(fs5, 16000);
-						mod2fs6 = setTimeout(fs6, 20000);
-						mod2fs1 = setTimeout(fs1, 24000);
-						// clearTimeout(mod1ps2);
-						// clearTimeout(mod1ps3);
-						// clearTimeout(mod1ps4);
-						// clearTimeout(mod1ps1);
-					}
-
-					function mod2stop() {
-						clearInterval(mod2interval);
-						clearTimeout(mod2fs1);
-						clearTimeout(mod2fs2);
-						clearTimeout(mod2fs3);
-						clearTimeout(mod2fs4);
-						clearTimeout(mod2fs5);
-						clearTimeout(mod2fs6);
-					}
-
-				</script>
-
-			</div>
-			<!-- modal container end -->
-
+			
 
 			<!--HighLighert_One_BG----start-->
 
