@@ -58,53 +58,54 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-DRRPMG0RP5"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DRRPMG0RP5"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'G-DRRPMG0RP5');
-	</script> -->
+	</script>
 	<link rel="stylesheet" href="css/home.css" />
 	<script src="js/home.js"></script>
 </head>
 
 <body>
 	<!-- modal container start -->
-			<div class="modal-container">
-
-				
-				<!-- modal 1 start -->
-				<div class="modal fade" id="firstModal" role="dialog">
-					<div class="modal-dialog">
+	<div style="display:kblo;">
+		<div class="modal-container">
 
 
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" onclick="mod1stop()"><img
-										src="img/site/modal-close.svg" alt=""></button>
-								<div class="modal-header-content">
-									<div class="modal-header-text">
-										<div class="imgsection-title">
-											HOW TO USE BLINKTRUST AI
-										</div>
-										<div class="imgsection-main-title">
-											BlinkTrust AI Plugins for IDEs
-										</div>
-										<div class="imgsection-sub-title">
-											Follow the steps below showing how to download and install BlinkTrust AI
-											Data
-											Privacy Checker into the IDE of your choice.
-										</div>
+			<!-- modal 1 start -->
+			<div class="modal fade" id="firstModal" role="dialog">
+				<div class="modal-dialog">
+
+
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" onclick="mod1stop()"><img
+									src="img/site/modal-close.svg" alt=""></button>
+							<div class="modal-header-content">
+								<div class="modal-header-text">
+									<div class="imgsection-title">
+										HOW TO USE BLINKTRUST AI
 									</div>
-									<button class="cReadMore">Try Our Plugin</button>
+									<div class="imgsection-main-title">
+										BlinkTrust AI Plugins for IDEs
+									</div>
+									<div class="imgsection-sub-title">
+										Follow the steps below showing how to download and install BlinkTrust AI
+										Data
+										Privacy Checker into the IDE of your choice.
+									</div>
 								</div>
-
+								<button class="cReadMore">Try Our Plugin</button>
 							</div>
-							<div class="modal-body">
-								<ul>
-									<li class="active" id="ps1" onclick="this.className='active';
+
+						</div>
+						<div class="modal-body">
+							<ul>
+								<li class="active" id="ps1" onclick="this.className='active';
 									document.getElementById('ps2').className='unvisited';
 									document.getElementById('ps3').className='unvisited';
 									document.getElementById('ps4').className='unvisited';
@@ -113,17 +114,17 @@
 									document.getElementById('pi3').style.display='none';
 									document.getElementById('pi4').style.display='none';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Select Platform</h4>
-											<p class="modal-list-desc">To use our plugins for scanning data
-												vulnerability, begin by selecting the IDE of your choice from the list.
-											</p>
-										</div>
-									</li>
-									<li class="unvisited" id="ps2" onclick="this.className='active';
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Select Platform</h4>
+										<p class="modal-list-desc">To use our plugins for scanning data
+											vulnerability, begin by selecting the IDE of your choice from the list.
+										</p>
+									</div>
+								</li>
+								<li class="unvisited" id="ps2" onclick="this.className='active';
 									document.getElementById('ps1').className='visited';
 									document.getElementById('ps3').className='unvisited';
 									document.getElementById('ps4').className='unvisited';
@@ -132,17 +133,17 @@
 									document.getElementById('pi3').style.display='none';
 									document.getElementById('pi4').style.display='none';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Choose Plugin</h4>
-											<p class="modal-list-desc">From the IDE marketplace, search for ‘BlinkTrust
-												AI
-												plugin’ or find the plugin featured on the home screen. </p>
-										</div>
-									</li>
-									<li class="unvisited" id="ps3" onclick="this.className='active';
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Choose Plugin</h4>
+										<p class="modal-list-desc">From the IDE marketplace, search for ‘BlinkTrust
+											AI
+											plugin’ or find the plugin featured on the home screen. </p>
+									</div>
+								</li>
+								<li class="unvisited" id="ps3" onclick="this.className='active';
 									document.getElementById('ps1').className='visited';
 									document.getElementById('ps2').className='visited';
 									document.getElementById('ps4').className='unvisited';
@@ -151,16 +152,16 @@
 									document.getElementById('pi3').style.display='block';
 									document.getElementById('pi4').style.display='none';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Download & Install Plugin</h4>
-											<p class="modal-list-desc">Click the “Download” button on the BlinkTrust AI
-												details page to install the plugin onto your IDE software.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="ps4" onclick="this.className='active';
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Download & Install Plugin</h4>
+										<p class="modal-list-desc">Click the “Download” button on the BlinkTrust AI
+											details page to install the plugin onto your IDE software.</p>
+									</div>
+								</li>
+								<li class="unvisited" id="ps4" onclick="this.className='active';
 									document.getElementById('ps1').className='visited';
 									document.getElementById('ps2').className='visited';
 									document.getElementById('ps3').className='visited';
@@ -169,120 +170,120 @@
 									document.getElementById('pi3').style.display='none';
 									document.getElementById('pi4').style.display='block';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Plugin Installed</h4>
-											<p class="modal-list-desc">You’re all set! The plugin is available to access
-												from the ‘Plugins’ menu in your IDE software interface.</p>
-										</div>
-									</li>
-								</ul>
-								<div class="modal-img-container" id="FirstModalBody">
-									<div class="modal-body-img" id="modalImgSlide">
-										<img id="pi1" src="img/site/p1.png" style="display: block;" alt="">
-										<img id="pi2" src="img/site/p2.png" style="display:none" alt="">
-										<img id="pi3" src="img/site/p3.png" style="display:none" alt="">
-										<img id="pi4" src="img/site/p4.png" style="display:none" alt="">
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Plugin Installed</h4>
+										<p class="modal-list-desc">You’re all set! The plugin is available to access
+											from the ‘Plugins’ menu in your IDE software interface.</p>
 									</div>
+								</li>
+							</ul>
+							<div class="modal-img-container" id="FirstModalBody">
+								<div class="modal-body-img" id="modalImgSlide">
+									<img id="pi1" src="img/site/p1.png" style="display: block;" alt="">
+									<img id="pi2" src="img/site/p2.png" style="display:none" alt="">
+									<img id="pi3" src="img/site/p3.png" style="display:none" alt="">
+									<img id="pi4" src="img/site/p4.png" style="display:none" alt="">
 								</div>
-
 							</div>
+
 						</div>
-
 					</div>
-				</div>  
-				<!-- modal 1 end -->
 
-				<script>
-					function ps2() {
-						document.querySelector('#ps2').click();
-					}
+				</div>
+			</div>
+			<!-- modal 1 end -->
 
-					function ps3() {
-						document.querySelector('#ps3').click();
-					}
+			<script>
+				function ps2() {
+					document.querySelector('#ps2').click();
+				}
 
-					function ps4() {
-						document.querySelector('#ps4').click();
-					}
+				function ps3() {
+					document.querySelector('#ps3').click();
+				}
 
-					function ps1() {
-						document.querySelector('#ps1').click();
-					}
-					var mod1interval = setInterval(mod1, 16000);
-					var mod1ps2 = setTimeout(ps2, 4000);
-					var mod1ps3 = setTimeout(ps3, 8000);
-					var mod1ps4 = setTimeout(ps4, 12000);
-					var mod1ps1 = setTimeout(ps1, 16000);
-					// Simulate a click every second
-					function mod1() {
-						ps1();
-						clearInterval(mod1interval);
-						clearTimeout(mod1ps1);
-						clearTimeout(mod1ps2);
-						clearTimeout(mod1ps3);
-						clearTimeout(mod1ps4);
-						mod1ps2 = setTimeout(ps2, 4000);
-						mod1ps3 = setTimeout(ps3, 8000);
-						mod1ps4 = setTimeout(ps4, 12000);
-						mod1ps1 = setTimeout(ps1, 16000);
-						mod1interval = setInterval(mod1start, 16000);
-					}
+				function ps4() {
+					document.querySelector('#ps4').click();
+				}
 
-					function mod1start() {
-						mod1ps2 = setTimeout(ps2, 4000);
-						mod1ps3 = setTimeout(ps3, 8000);
-						mod1ps4 = setTimeout(ps4, 12000);
-						mod1ps1 = setTimeout(ps1, 16000);
-						// clearTimeout(mod1ps2);
-						// clearTimeout(mod1ps3);
-						// clearTimeout(mod1ps4);
-						// clearTimeout(mod1ps1);
-					}
+				function ps1() {
+					document.querySelector('#ps1').click();
+				}
+				var mod1interval = setInterval(mod1, 16000);
+				var mod1ps2 = setTimeout(ps2, 4000);
+				var mod1ps3 = setTimeout(ps3, 8000);
+				var mod1ps4 = setTimeout(ps4, 12000);
+				var mod1ps1 = setTimeout(ps1, 16000);
+				// Simulate a click every second
+				function mod1() {
+					ps1();
+					clearInterval(mod1interval);
+					clearTimeout(mod1ps1);
+					clearTimeout(mod1ps2);
+					clearTimeout(mod1ps3);
+					clearTimeout(mod1ps4);
+					mod1ps2 = setTimeout(ps2, 4000);
+					mod1ps3 = setTimeout(ps3, 8000);
+					mod1ps4 = setTimeout(ps4, 12000);
+					mod1ps1 = setTimeout(ps1, 16000);
+					mod1interval = setInterval(mod1start, 16000);
+				}
 
-					function mod1stop() {
-						clearInterval(mod1interval);
-						clearTimeout(mod1ps1);
-						clearTimeout(mod1ps2);
-						clearTimeout(mod1ps3);
-						clearTimeout(mod1ps4);
-					}
+				function mod1start() {
+					mod1ps2 = setTimeout(ps2, 4000);
+					mod1ps3 = setTimeout(ps3, 8000);
+					mod1ps4 = setTimeout(ps4, 12000);
+					mod1ps1 = setTimeout(ps1, 16000);
+					// clearTimeout(mod1ps2);
+					// clearTimeout(mod1ps3);
+					// clearTimeout(mod1ps4);
+					// clearTimeout(mod1ps1);
+				}
 
-
-				</script>
-
-				<!-- modal 2 start -->
-				<div class="modal fade" id="secondModal" role="dialog">
-					<div class="modal-dialog">
+				function mod1stop() {
+					clearInterval(mod1interval);
+					clearTimeout(mod1ps1);
+					clearTimeout(mod1ps2);
+					clearTimeout(mod1ps3);
+					clearTimeout(mod1ps4);
+				}
 
 
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" onclick="mod2stop()"><img
-										src="img/site/modal-close.svg" alt=""></button>
-								<div class="modal-header-content">
-									<div class="modal-header-text">
-										<div class="imgsection-title">
-											HOW TO USE BLINKTRUST AI
-										</div>
-										<div class="imgsection-main-title">
-											Finding Vulnerabilities is Easy
-										</div>
-										<div class="imgsection-sub-title">
-											Follow the steps below showing how to upload data onto BlinkTrust AI and
-											find
-											inconsistencies as per global complaince standards.
-										</div>
+			</script>
+
+			<!-- modal 2 start -->
+			<div class="modal fade" id="secondModal" role="dialog">
+				<div class="modal-dialog">
+
+
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" onclick="mod2stop()"><img
+									src="img/site/modal-close.svg" alt=""></button>
+							<div class="modal-header-content">
+								<div class="modal-header-text">
+									<div class="imgsection-title">
+										HOW TO USE BLINKTRUST AI
 									</div>
-									<button class="cReadMore">Try Our Product</button>
+									<div class="imgsection-main-title">
+										Finding Vulnerabilities is Easy
+									</div>
+									<div class="imgsection-sub-title">
+										Follow the steps below showing how to upload data onto BlinkTrust AI and
+										find
+										inconsistencies as per global complaince standards.
+									</div>
 								</div>
-
+								<button class="cReadMore">Try Our Product</button>
 							</div>
-							<div class="modal-body">
-								<ul>
-									<li class="active" id="fs1" onclick="this.className='active';
+
+						</div>
+						<div class="modal-body">
+							<ul>
+								<li class="active" id="fs1" onclick="this.className='active';
 									document.getElementById('fs2').className='unvisited';
 									document.getElementById('fs3').className='unvisited';
 									document.getElementById('fs4').className='unvisited';
@@ -295,16 +296,16 @@
 									document.getElementById('fi5').style.display='none';
 									document.getElementById('fi6').style.display='none';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Open the BlinkTrust AI Software</h4>
-											<p class="modal-list-desc">Choose whether to find threats in you data, track
-												your data for vulnerabilities or protect your data from attacks.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs2" onclick="this.className='active';
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Open the BlinkTrust AI Software</h4>
+										<p class="modal-list-desc">Choose whether to find threats in you data, track
+											your data for vulnerabilities or protect your data from attacks.</p>
+									</div>
+								</li>
+								<li class="unvisited" id="fs2" onclick="this.className='active';
 									document.getElementById('fs1').className='visited';
 									document.getElementById('fs3').className='unvisited';
 									document.getElementById('fs4').className='unvisited';
@@ -317,17 +318,17 @@
 									document.getElementById('fi5').style.display='none';
 									document.getElementById('fi6').style.display='none';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Choose your Data type</h4>
-											<p class="modal-list-desc">Select source/platform of your data repository
-												set to be scanned, or upload external file in .csv, .txt and other
-												formats.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs3" onclick="this.className='active';
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Choose your Data type</h4>
+										<p class="modal-list-desc">Select source/platform of your data repository
+											set to be scanned, or upload external file in .csv, .txt and other
+											formats.</p>
+									</div>
+								</li>
+								<li class="unvisited" id="fs3" onclick="this.className='active';
 									document.getElementById('fs1').className='visited';
 									document.getElementById('fs2').className='visited';
 									document.getElementById('fs4').className='unvisited';
@@ -340,16 +341,16 @@
 									document.getElementById('fi5').style.display='none';
 									document.getElementById('fi6').style.display='none';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Upload your Data</h4>
-											<p class="modal-list-desc">Connect and specify which repository you want to
-												be scanned for vulnerabilities and other security risks.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs4" onclick="this.className='active';
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Upload your Data</h4>
+										<p class="modal-list-desc">Connect and specify which repository you want to
+											be scanned for vulnerabilities and other security risks.</p>
+									</div>
+								</li>
+								<li class="unvisited" id="fs4" onclick="this.className='active';
 									document.getElementById('fs1').className='visited';
 									document.getElementById('fs2').className='visited';
 									document.getElementById('fs3').className='visited';
@@ -362,16 +363,16 @@
 									document.getElementById('fi5').style.display='none';
 									document.getElementById('fi6').style.display='none';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Choose the Security laws</h4>
-											<p class="modal-list-desc">Browse and select security laws which your data
-												would undergo compliance and privacy standard checks with.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs5" onclick="this.className='active';
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Choose the Security laws</h4>
+										<p class="modal-list-desc">Browse and select security laws which your data
+											would undergo compliance and privacy standard checks with.</p>
+									</div>
+								</li>
+								<li class="unvisited" id="fs5" onclick="this.className='active';
 									document.getElementById('fs1').className='visited';
 									document.getElementById('fs2').className='visited';
 									document.getElementById('fs3').className='visited';
@@ -384,17 +385,17 @@
 									document.getElementById('fi5').style.display='block';
 									document.getElementById('fi6').style.display='none';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Scanning your Data</h4>
-											<p class="modal-list-desc">You’re all set! Wait for your repositories (or
-												files) to be scanned. A notification will pop-up informing you upon
-												completion.</p>
-										</div>
-									</li>
-									<li class="unvisited" id="fs6" onclick="this.className='active';
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Scanning your Data</h4>
+										<p class="modal-list-desc">You’re all set! Wait for your repositories (or
+											files) to be scanned. A notification will pop-up informing you upon
+											completion.</p>
+									</div>
+								</li>
+								<li class="unvisited" id="fs6" onclick="this.className='active';
 									document.getElementById('fs1').className='visited';
 									document.getElementById('fs2').className='visited';
 									document.getElementById('fs3').className='visited';
@@ -407,107 +408,108 @@
 									document.getElementById('fi5').style.display='none';
 									document.getElementById('fi6').style.display='block';
 									">
-										<div class="radio-btn-unvisited"></div>
-										<div class="radio-btn"></div>
-										<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
-										<div class="modal-list">
-											<h4>Report Ready!</h4>
-											<p class="modal-list-desc">Get a detailed report laying out types of
-												sensitive data scanned, top datapoints, and vulnerabilities found in
-												your data.</p>
-										</div>
-									</li>
-								</ul>
-								<div class="modal-img-container" id="FirstModalBody">
-									<div class="modal-body-img" id="modalImgSlide">
-										<img id="fi1" src="img/site/f1.png" style="display: block;" alt="">
-										<img id="fi2" src="img/site/f2.png" style="display:none" alt="">
-										<img id="fi3" src="img/site/f3.png" style="display:none" alt="">
-										<img id="fi4" src="img/site/f4.png" style="display:none" alt="">
-										<img id="fi5" src="img/site/f5.png" style="display:none" alt="">
-										<img id="fi6" src="img/site/f6.png" style="display:none" alt="">
+									<div class="radio-btn-unvisited"></div>
+									<div class="radio-btn"></div>
+									<div class="radio-check"><img src="img/site/Vector 54.svg" alt=""></div>
+									<div class="modal-list">
+										<h4>Report Ready!</h4>
+										<p class="modal-list-desc">Get a detailed report laying out types of
+											sensitive data scanned, top datapoints, and vulnerabilities found in
+											your data.</p>
 									</div>
+								</li>
+							</ul>
+							<div class="modal-img-container" id="FirstModalBody">
+								<div class="modal-body-img" id="modalImgSlide">
+									<img id="fi1" src="img/site/f1.png" style="display: block;" alt="">
+									<img id="fi2" src="img/site/f2.png" style="display:none" alt="">
+									<img id="fi3" src="img/site/f3.png" style="display:none" alt="">
+									<img id="fi4" src="img/site/f4.png" style="display:none" alt="">
+									<img id="fi5" src="img/site/f5.png" style="display:none" alt="">
+									<img id="fi6" src="img/site/f6.png" style="display:none" alt="">
 								</div>
 							</div>
 						</div>
-
 					</div>
+
 				</div>
-				<!-- modal 2 end -->
-
-				<script>
-					function fs2() {
-						document.querySelector('#fs2').click();
-					}
-
-					function fs3() {
-						document.querySelector('#fs3').click();
-					}
-
-					function fs4() {
-						document.querySelector('#fs4').click();
-					}
-					function fs5() {
-						document.querySelector('#fs5').click();
-					}
-					function fs6() {
-						document.querySelector('#fs6').click();
-					}
-					function fs1() {
-						document.querySelector('#fs1').click();
-					}
-					// Simulate a click every second
-					var mod2interval = setInterval(mod2, 24000);
-					var mod2fs2 = setTimeout(fs2, 4000);
-					var mod2fs3 = setTimeout(fs3, 8000);
-					var mod2fs4 = setTimeout(fs4, 12000);
-					var mod2fs5 = setTimeout(fs5, 16000);
-					var mod2fs6 = setTimeout(fs6, 20000);
-					var mod2fs1 = setTimeout(fs1, 24000);
-					function mod2() {
-						fs1();
-						clearInterval(mod2interval);
-						clearTimeout(mod2fs1);
-						clearTimeout(mod2fs2);
-						clearTimeout(mod2fs3);
-						clearTimeout(mod2fs4);
-						clearTimeout(mod2fs5);
-						clearTimeout(mod2fs6);
-						mod2fs2 = setTimeout(fs2, 4000);
-						mod2fs3 = setTimeout(fs3, 8000);
-						mod2fs4 = setTimeout(fs4, 12000);
-						mod2fs5 = setTimeout(fs5, 16000);
-						mod2fs6 = setTimeout(fs6, 24000)
-						mod2interval = setInterval(mod2start, 24000);
-					}
-
-					function mod2start() {
-						mod2fs2 = setTimeout(fs2, 4000);
-						mod2fs3 = setTimeout(fs3, 8000);
-						mod2fs4 = setTimeout(fs4, 12000);
-						mod2fs5 = setTimeout(fs5, 16000);
-						mod2fs6 = setTimeout(fs6, 20000);
-						mod2fs1 = setTimeout(fs1, 24000);
-						// clearTimeout(mod1ps2);
-						// clearTimeout(mod1ps3);
-						// clearTimeout(mod1ps4);
-						// clearTimeout(mod1ps1);
-					}
-
-					function mod2stop() {
-						clearInterval(mod2interval);
-						clearTimeout(mod2fs1);
-						clearTimeout(mod2fs2);
-						clearTimeout(mod2fs3);
-						clearTimeout(mod2fs4);
-						clearTimeout(mod2fs5);
-						clearTimeout(mod2fs6);
-					}
-
-				</script>
-
 			</div>
-			<!-- modal container end -->
+			<!-- modal 2 end -->
+
+			<script>
+				function fs2() {
+					document.querySelector('#fs2').click();
+				}
+
+				function fs3() {
+					document.querySelector('#fs3').click();
+				}
+
+				function fs4() {
+					document.querySelector('#fs4').click();
+				}
+				function fs5() {
+					document.querySelector('#fs5').click();
+				}
+				function fs6() {
+					document.querySelector('#fs6').click();
+				}
+				function fs1() {
+					document.querySelector('#fs1').click();
+				}
+				// Simulate a click every second
+				var mod2interval = setInterval(mod2, 24000);
+				var mod2fs2 = setTimeout(fs2, 4000);
+				var mod2fs3 = setTimeout(fs3, 8000);
+				var mod2fs4 = setTimeout(fs4, 12000);
+				var mod2fs5 = setTimeout(fs5, 16000);
+				var mod2fs6 = setTimeout(fs6, 20000);
+				var mod2fs1 = setTimeout(fs1, 24000);
+				function mod2() {
+					fs1();
+					clearInterval(mod2interval);
+					clearTimeout(mod2fs1);
+					clearTimeout(mod2fs2);
+					clearTimeout(mod2fs3);
+					clearTimeout(mod2fs4);
+					clearTimeout(mod2fs5);
+					clearTimeout(mod2fs6);
+					mod2fs2 = setTimeout(fs2, 4000);
+					mod2fs3 = setTimeout(fs3, 8000);
+					mod2fs4 = setTimeout(fs4, 12000);
+					mod2fs5 = setTimeout(fs5, 16000);
+					mod2fs6 = setTimeout(fs6, 24000)
+					mod2interval = setInterval(mod2start, 24000);
+				}
+
+				function mod2start() {
+					mod2fs2 = setTimeout(fs2, 4000);
+					mod2fs3 = setTimeout(fs3, 8000);
+					mod2fs4 = setTimeout(fs4, 12000);
+					mod2fs5 = setTimeout(fs5, 16000);
+					mod2fs6 = setTimeout(fs6, 20000);
+					mod2fs1 = setTimeout(fs1, 24000);
+					// clearTimeout(mod1ps2);
+					// clearTimeout(mod1ps3);
+					// clearTimeout(mod1ps4);
+					// clearTimeout(mod1ps1);
+				}
+
+				function mod2stop() {
+					clearInterval(mod2interval);
+					clearTimeout(mod2fs1);
+					clearTimeout(mod2fs2);
+					clearTimeout(mod2fs3);
+					clearTimeout(mod2fs4);
+					clearTimeout(mod2fs5);
+					clearTimeout(mod2fs6);
+				}
+
+			</script>
+
+		</div>
+	</div>
+	<!-- modal container end -->
 
 	<!-- Top -->
 	<div class="privacy-platform">
@@ -530,7 +532,7 @@
 					<div class="nav-beta">
 					<img src="img/home/nav-beta.svg" alt="">
 				</div> 
-				--> 
+				-->
 			</div>
 			<div class="nav-right" data-aos="fade-right" data-aos-duration="2000">
 				<!-- <img src="img/home/Group 1697.svg" alt=""> -->
@@ -785,12 +787,12 @@
 
 			<!-- BT Discovery Engine start -->
 			<div class="cInner_SecTwo pb-40 slider-sec" id="discovery-section">
-				
-				
+
+
 				<!-- top section start -->
 
 				<div class="container" style="padding-top: 100px">
-					
+
 					<div class="col-md-6">
 						<img src="./img/home/bt-discovery.svg" alt=""><br><br>
 						<span class="head" data-aos="fade-left" data-aos-duration="1000">YOUR DATA OUR PRIORITY</span>
@@ -803,13 +805,13 @@
 							consectetur adipiscing elit. At id purus viverra mauris egestas aliquam. Diam augue
 							pellentesque risus nulla euismod tincidunt sed feugiat.</p>  -->
 
-							<!-- editable sub-header -->
+						<!-- editable sub-header -->
 					</div>
 
 					<div class="col-md-6">
 						<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel"
 							data-aos-duration="1000">
-							
+
 							<div class="carousel-inner">
 
 								<div class="item active">
@@ -820,11 +822,11 @@
 											style="margin: 30px 0 0 60px;">
 										<img class="slides slides-hidden" src="img/home/Group 1701.svg"
 											style="margin: 30px 0 0 60px;">
-									
+
 									</div>
 								</div>
 							</div>
-							
+
 						</div>
 
 
@@ -857,7 +859,7 @@
 
 					<div class="col-md-6">
 						<div id="carouselExampleFade" class="carousel carousel-fade" data-ride="carousel">
-							
+
 							<div class="carousel-inner" style="overflow: visible !important;">
 
 								<div class="item active">
@@ -875,7 +877,7 @@
 					</div>
 				</div>
 				<!-- bottom section end -->
-			
+
 			</div>
 			<!-- BT Discovery Engine end -->
 
@@ -924,7 +926,7 @@
 			</script>
 
 
-			
+
 
 			<!--HighLighert_One_BG----start-->
 
@@ -944,19 +946,19 @@
 						<div class="col-sm-4">
 							<div class="cHighLighterInfo" data-aos="fade-right" data-aos-duration="1000">
 								<div class="cHighLighterImgBg">
-									
+
 									<img src="img/site/automate.png" alt="">
 								</div>
 								<h1 class="cHighLighterInfoHeader">Automate</h1>
 								<p class="cHighLighterInfoDesc">We automate privacy and compliance with integrations to
 									existing Software and IT lifecycle management tools like Jira.</p>
-								
+
 							</div>
 						</div>
 						<div class="col-sm-4 " data-aos="fade-up" data-aos-duration="1000">
 							<div class="cHighLighterInfo">
 								<div class="cHighLighterImgBg">
-									
+
 									<img src="img/site/integrate.png" alt="">
 								</div>
 								<h1 class="cHighLighterInfoHeader">Integrate</h1>
@@ -964,19 +966,19 @@
 									environments (Visual Studio, Eclipse, etc) to ensure data privacy & compliance is
 									addressed in design, development, pre-deployment stage in the Software lifecycle.
 								</p>
-								
+
 							</div>
 						</div>
 						<div class="col-sm-4" data-aos="fade-left" data-aos-duration="1000">
 							<div class="cHighLighterInfo">
 								<div class="cHighLighterImgBg">
-									
+
 									<img src="img/site/multicloud.png" alt="">
 								</div>
 								<h1 class="cHighLighterInfoHeader">Multi-cloud</h1>
 								<p class="cHighLighterInfoDesc">We support on-premises, cloud, multi-cloud, and hybrid
 									with one common platform with AI and ML-powered data privacy.</p>
-								
+
 							</div>
 						</div>
 					</div>
@@ -1144,7 +1146,7 @@
 					data-aos-duration="1000">
 			</div>
 
-			
+
 
 
 			<div class="cHome_SectionPlugin" style="background-color: #D8D8D8;">
@@ -1271,7 +1273,7 @@
 						<div class="imgsection-sub-title" data-aos="fade-up" data-aos-duration="1000">
 							Countries not yet meeting most/all GDPR requirements
 						</div>
-						
+
 						<img src="img/site/map.png" alt="" style="width: 1520px;" data-aos="fade-up"
 							data-aos-duration="1000">
 
@@ -1281,7 +1283,7 @@
 				</div>
 			</div>
 
-			
+
 			<div class="cHome_SecOne">
 				<div class="container cHome_SecTwo">
 					<div class="col-sm-12 cSecOneInfo">
@@ -1357,22 +1359,22 @@
 					<div class="row-12 mb-30">
 						<!-- <p class="imgsection-title" data-aos="fade-up" data-aos-duration="1000">WE ARE COMMUNITY-DRIVEN
 						</p> -->
-						<h1 class="imgsection-main-title" data-aos="fade-up" data-aos-duration="1000" style="color: #000;">One-for-All and
+						<h1 class="imgsection-main-title" data-aos="fade-up" data-aos-duration="1000"
+							style="color: #000;">One-for-All and
 							All-for-One</h1>
-						<p class="imgsection-sub-title" data-aos="fade-up"
-							data-aos-duration="1000">Join a community of more that 50+
+						<p class="imgsection-sub-title" data-aos="fade-up" data-aos-duration="1000">Join a community of
+							more that 50+
 							developers protecting their client’s data everyday.</p>
 						<img src="./partners-program/windows-p74ndnYWRY4-unsplash 1.svg" alt="">
-						<a href="#" class="cReadMore" data-aos="fade-up"
-							data-aos-duration="1000">Join us</a>
+						<a href="#" class="cReadMore" data-aos="fade-up" data-aos-duration="1000">Join us</a>
 					</div>
 				</div>
 			</div>
 
-			
+
 			<div class="cHome_SecThree-bg">
 				<div class="container cHome_SecThree" data-aos="slide-up" data-aos-duration="1000">
-					
+
 					<div class="col-sm-12 cSecOneInfo" id="demo">
 						<div class="section-heading" data-aos="fade-up" data-aos-duration="1000">
 							<h3>Welcome to BlinkTrust AI.</h3>
@@ -1388,7 +1390,7 @@
 							<div class="row">
 								<button type="button" class="btn btn-success custom-btn" data-aos="fade-right"
 									data-aos-duration="1000">
-									
+
 									<img src="img/site/telescope-white.svg" alt=""
 										style="width: 15px; margin: 0 5px 0 0">
 									Discover
@@ -1396,7 +1398,7 @@
 								</button>
 								<button type="button" class="btn btn-denger custom-btn" data-aos="fade-up"
 									data-aos-duration="1000">
-									
+
 									<img src="img/site/dashboard-white.svg" alt=""
 										style="width: 20px; margin: 0 5px 0 0">
 									Monitor
@@ -1404,7 +1406,7 @@
 								</button>
 								<button type="button" class="btn btn-info custom-btn" data-aos="fade-left"
 									data-aos-duration="1000">
-									
+
 									<img src="img/site/shield-white.svg" alt="" style="width: 20px; margin: 0 5px 0 0">
 									Prevent
 									<span>Find Data at threat</span>
@@ -1419,7 +1421,7 @@
 							<div class="row">
 								<button type="button" class="btn btn-success plugin-icon" data-aos="fade-right"
 									data-aos-duration="1000">
-								
+
 									<img src="img/site/vs-code.svg" alt="">
 									<p>Visual Studio Code</p>
 								</button>
@@ -1431,13 +1433,13 @@
 								</button>
 								<button type="button" class="btn btn-info plugin-icon" data-aos="fade-left"
 									data-aos-duration="1000">
-							
+
 									<img src="img/site/appcode.svg" alt="">
 									<p>AppCode</p>
 								</button>
 								<button type="button" class="btn btn-info plugin-icon" data-aos="fade-left"
 									data-aos-duration="1000">
-								
+
 									<img src="img/site/android-studio.svg" alt="">
 									<p>Android Studio</p>
 								</button>
@@ -1450,19 +1452,19 @@
 							<div class="row">
 								<button type="button" class="btn btn-success get-to-know-btn" data-aos="fade-right"
 									data-aos-duration="1000">
-								
+
 									<img src="img/site/bar-icon.svg" alt="" style="width: 30px;">
 									<span>Learn with Experts</span>Community Forum
 								</button>
 								<button type="button" class="btn btn-denger get-to-know-btn" data-aos="fade-up"
 									data-aos-duration="1000">
-								
+
 									<img src="img/site/bar-icon.svg" alt="" style="width: 30px;">
 									<span>Learn with Details</span>Compliances
 								</button>
 								<button type="button" class="btn btn-info get-to-know-btn" data-aos="fade-left"
 									data-aos-duration="1000">
-								
+
 									<img src="img/site/bar-icon.svg" alt="" style="width: 30px;">
 									<span>Learn with Details</span>Documentation
 								</button>
@@ -1482,7 +1484,7 @@
 
 
 
-			
+
 			<!--footer start-->
 			<div class="cHome_Footer" id="cFooter">
 				<!-- <div class="container">
