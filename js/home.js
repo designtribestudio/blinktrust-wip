@@ -15,3 +15,7 @@ function changeTab(tab) {
     $(`#${tab}-content`).addClass('active')
     $(`#${tab}-content`).siblings().removeClass('active')
 }
+
+function showExploreModal() {
+    $('#firstModal').modal('show');
+}
