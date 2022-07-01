@@ -422,6 +422,21 @@ color: #292933;
     margin: 0 auto;
 }
 
+.popular-section-content h1{
+    font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+}
+
+.popular-section-content p{
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.2px;
+margin: 35px 0 50px 0;
+}
 .pps-card-outer{
     display: flex;
     flex-direction: column;

@@ -1,0 +1,87 @@
+.cHomePage{
+    border:none;
+}
+.logo-head{
+    text-align: left;
+    display: block;
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo-head p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+color: #9591AF;
+text-align: left;
+}
+
+.logo-head h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.2px;
+
+/* Off White_Blink Hub */
+
+color: #FFFFFF;
+text-align: left;
+margin-bottom: 0;
+}
+.privacy-platform {
+    background-image: url('../../compliance-bg.png');
+    padding: 35px 0;
+}
+
+.breadcrumb{
+    width: 1140px;
+    margin: 20px auto 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb a{
+    margin: 0 10px 0 0;
+    padding: 0;
+    font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.0652651px;
+
+/* Cool Grey_Blink Hub */
+
+color: #5B588F;
+text-decoration: none;
+}
+.breadcrumb p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+.breadcrumb img{
+    margin: 0 10px 0 0;
+}
+
+.india-content{
+    width: 1140px;
+    margin: 0 auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.india-left{
+    background: #FFFFFF;
+border-radius: 10px;
+padding: 30px;
+width: 740px;
+}
