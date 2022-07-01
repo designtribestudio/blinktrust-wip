@@ -19,3 +19,7 @@ function changeTab(tab) {
 function showExploreModal() {
     $('#firstModal').modal('show');
 }
+
+function showExploreModal2() {
+    $('#secondModal').modal('show');
+}
