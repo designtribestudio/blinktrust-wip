@@ -1,0 +1,184 @@
+body,html{
+    background: #ffffff !important;
+}
+.cHomePage{
+    border:none;
+}
+.logo-head{
+    text-align: left;
+    display: block;
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo-head p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+color: #ffffff;
+text-align: left;
+}
+
+.logo-head h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.2px;
+
+/* Off White_Blink Hub */
+
+color: #FFFFFF;
+text-align: left;
+margin-bottom: 0;
+}
+.privacy-platform {
+    height: 800px;
+    background: linear-gradient(94.55deg, rgba(53, 48, 128, 0.8) 0%, rgba(24, 21, 63, 0.8) 100%);
+mix-blend-mode: normal;
+backdrop-filter: blur(15px);
+    padding: 35px 0 0 0;
+}
+
+.feedback-form{
+    width: 1140px;
+height: 924px;
+background: #F8F8FB;
+border-radius: 16px;
+margin: 50px auto;
+}
+
+
+.custom-button-group {
+    display: flex;
+    width: 735px;
+    justify-content: space-between;
+  }
+
+.satisfaction{
+    width: 735px;
+    display: flex;
+    justify-content: space-between;
+}
+  .custom-button {
+    background: #E9E9F4;
+border-radius: 6px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 60px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-button-selected {
+    background: #e9e9f4;
+    /* Purple_Blink Hub */
+  
+    border: 1px solid #7465f1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 60px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #5b588f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feedbackForm input[type="text"],
+  .feedbackForm input[type="email"] {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 6px;
+    height: 60px;
+    color: #000000;
+    border: none;
+    margin: 0 0 45px 0;
+  }
+  .form-row{
+      width: 100%;
+  }
+  .feedbackForm input[type="text"]::placeholder,
+  .feedbackForm input[type="email"]::placeholder {
+    color: #000000;
+  }
+  
+  .feedbackForm button[type="submit"] {
+    background: #27ae60;
+    border-radius: 5px;
+    padding: 15px 33px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .feedbackForm textarea{
+    background: #FFFFFF;
+/* Grey Text_Blink hub */
+
+border: 1px solid #9591AF;
+border-radius: 16px;
+  }
+
+  .cancel{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20.5px;
+color: #000000;
+margin: 0 30px 0 0;
+padding: 8px 32px;
+}
+input[type='submit']{
+    background: linear-gradient(90.54deg, #817EA6 0%, #2E2952 98.08%);
+border-radius: 20.5px;
+color: #ffffff;
+padding: 10px 33px;
+}
+
+.gs-btns{
+    margin-top: 30px;
+    position: relative;
+    float: right;
+    padding: 0 0 50px 0;
+}
+
+form{
+    padding: 20px 50px 0 50px;
+}
+
+form h4{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+/* Black_Blinkhub */
+
+color: #19191F;
+margin: 30px 0;
+}
+
+.satisfaction{
+    margin-top: 20px;
+}
+
+textarea{
+    padding: 20px;
+}
