@@ -44,6 +44,8 @@ margin-bottom: 0;
 mix-blend-mode: normal;
 backdrop-filter: blur(15px);
     padding: 35px 0 0 0;
+    background-image: url(./Group\ 1685.png);
+    background-size: cover;
 }
 
 .feedback-form{
@@ -117,18 +119,6 @@ border-radius: 6px;
   .feedbackForm input[type="email"]::placeholder {
     color: #000000;
   }
-  
-  .feedbackForm button[type="submit"] {
-    background: #27ae60;
-    border-radius: 5px;
-    padding: 15px 33px;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-  }
 
   .feedbackForm textarea{
     background: #FFFFFF;
@@ -146,11 +136,11 @@ color: #000000;
 margin: 0 30px 0 0;
 padding: 8px 32px;
 }
-input[type='submit']{
+button[type="submit"]{
     background: linear-gradient(90.54deg, #817EA6 0%, #2E2952 98.08%);
 border-radius: 20.5px;
 color: #ffffff;
-padding: 10px 33px;
+padding: 8px 30px;
 }
 
 .gs-btns{
@@ -181,4 +171,25 @@ margin: 30px 0;
 
 textarea{
     padding: 20px;
+}
+
+.footer{
+    position: relative;
+    top: 640px;
+    width: auto;
+height: 70px;
+background: #F9F8FF;
+}
+
+.footer-content{
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links a{
+    margin-left: 20px;
 }
